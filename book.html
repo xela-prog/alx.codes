@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Call | alx.codes</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+</head>
+
+<body class="bg-background text-text-primary overflow-x-hidden">
+
+    <div id="cursor-glow" class="cursor-glow hidden md:block" aria-hidden="true"></div>
+    <div class="noise opacity-10 fixed inset-0 pointer-events-none z-[-1]"></div>
+
+    <header id="navbar" class="fixed inset-x-0 top-0 z-50 border-b border-transparent transition-all duration-300">
+        <nav class="container-x flex h-20 items-center justify-between" aria-label="Primary navigation">
+            <a href="index.html" class="group font-mono text-lg font-black tracking-tight text-text-primary"
+                aria-label="alx.codes home">
+                <span class="text-primary">~/</span>alx.codes<span class="text-yellow">▌</span>
+            </a>
+            <p class="eyebrow flex items-center justify-center gap-2">
+                <span class="h-2 w-2 rounded-full bg-aqua shadow-[0_0_10px_rgba(131,192,146,0.6)]"></span>
+                /root/schedule
+            </p>
+        </nav>
+    </header>
+
+    <main class="pb-24 pt-32 sm:pt-40">
+
+        <section class="reveal mb-12">
+            <div class="container-x text-center">
+                <h1 class="text-4xl font-black tracking-[-0.04em] sm:text-5xl lg:text-6xl">
+                    Establish Connection.
+                </h1>
+                <p class="mx-auto mt-5 max-w-lg text-base text-text-secondary">
+                    Book a 20-minute sync. Perfect for evaluating project scope, technical requirements, or freelance
+                    availability.
+                </p>
+            </div>
+        </section>
+
+        <div id="my-cal-inline-20-minute-evaluation" class="w-full mt-10 min-h-[600px] sm:min-h-[650px]"></div>
+
+
+
+    </main>
+
+    <script src="./src/main.js"></script>
+
+    <script type="text/javascript">
+
+        (function (C, A, L) {
+
+            let p = function (a, ar) {
+                a.q.push(ar);
+            };
+
+            let d = C.document;
+
+            C.Cal =
+                C.Cal ||
+                function () {
+
+                    let cal = C.Cal;
+                    let ar = arguments;
+
+                    if (!cal.loaded) {
+
+                        cal.ns = {};
+                        cal.q = cal.q || [];
+
+                        d.head
+                            .appendChild(
+                                d.createElement("script")
+                            ).src = A;
+
+                        cal.loaded = true;
+                    }
+
+                    if (ar[0] === L) {
+
+                        const api = function () {
+                            p(api, arguments);
+                        };
+
+                        const namespace = ar[1];
+
+                        api.q = api.q || [];
+
+                        if (typeof namespace === "string") {
+
+                            cal.ns[namespace] =
+                                cal.ns[namespace] || api;
+
+                            p(cal.ns[namespace], ar);
+
+                            p(cal, [
+                                "initNamespace",
+                                namespace
+                            ]);
+
+                        } else {
+
+                            p(cal, ar);
+
+                        }
+
+                        return;
+                    }
+
+                    p(cal, ar);
+                };
+
+        })(
+            window,
+            "https://app.cal.com/embed/embed.js",
+            "init"
+        );
+
+        Cal(
+            "init",
+            "20-minute-evaluation",
+            {
+                origin: "https://app.cal.com"
+            }
+        );
+
+        /* INLINE EMBED */
+
+        Cal.ns["20-minute-evaluation"](
+            "inline",
+            {
+
+                elementOrSelector:
+                    "#my-cal-inline-20-minute-evaluation",
+
+                config: {
+
+                    layout: "month_view",
+
+                    theme: "dark"
+
+                },
+
+                calLink:
+                    "pierre-alexandre-merge-fignole-1lffwn/20-minute-evaluation",
+
+            }
+        );
+
+        /* UI CONFIG */
+
+        Cal.ns["20-minute-evaluation"](
+            "ui",
+            {
+
+                theme: "dark",
+
+                cssVarsPerTheme: {
+
+                    dark: {
+
+                        /* MAIN BRAND */
+                        "cal-brand": "#A7C080",
+
+                        /* BACKGROUNDS */
+                        "cal-bg": "#2D353B",
+                        "cal-bg-emphasis": "#232A2E",
+                        "cal-bg-muted": "#343F44",
+
+                        /* TEXT */
+                        "cal-text": "#D3C6AA",
+                        "cal-text-emphasis": "#E5DDBF",
+                        "cal-text-muted": "#9DA9A0",
+
+                        /* BORDERS */
+                        "cal-border": "#475258",
+
+                        /* BUTTONS */
+                        "cal-button": "#A7C080",
+                        "cal-button-text": "#232A2E",
+
+                        /* STATUS */
+                        "cal-success": "#A7C080",
+                        "cal-error": "#E67E80",
+                        "cal-warning": "#DBBC7F",
+
+                        /* RADIUS */
+                        "cal-radius": "14px"
+
+                    }
+
+                },
+
+                hideEventTypeDetails: false,
+
+                layout: "month_view"
+
+            }
+        );
+
+    </script>
+
+    <style>
+        /* ROOT */
+
+        #my-cal-inline-20-minute-evaluation {
+
+            overflow: hidden !important;
+
+
+            border-radius: 0 0 2rem 2rem;
+
+        }
+
+        /* FORCE THEME VARIABLES */
+
+        #my-cal-inline-20-minute-evaluation,
+        #my-cal-inline-20-minute-evaluation * {
+
+            --cal-brand: #A7C080 !important;
+
+            --cal-bg: #2D353B !important;
+            --cal-bg-emphasis: #232A2E !important;
+            --cal-bg-muted: #343F44 !important;
+
+            --cal-text: #D3C6AA !important;
+            --cal-text-emphasis: #E5DDBF !important;
+            --cal-text-muted: #9DA9A0 !important;
+
+            --cal-border: #475258 !important;
+
+        }
+
+        /* IFRAME */
+
+        #my-cal-inline-20-minute-evaluation iframe {
+
+            width: 100% !important;
+
+            height: 620px !important;
+
+            border: none !important;
+
+            display: block !important;
+
+            overflow: hidden !important;
+        }
+
+        /* REMOVE WHITE / BLACK PANELS */
+
+        #my-cal-inline-20-minute-evaluation section,
+        #my-cal-inline-20-minute-evaluation article,
+        #my-cal-inline-20-minute-evaluation main,
+        #my-cal-inline-20-minute-evaluation aside,
+        #my-cal-inline-20-minute-evaluation form,
+        #my-cal-inline-20-minute-evaluation div {
+
+            background-color: transparent !important;
+
+        }
+
+        /* ACTUAL CAL SURFACES */
+
+        #my-cal-inline-20-minute-evaluation [class*="bg-emphasis"],
+        #my-cal-inline-20-minute-evaluation [data-testid],
+        #my-cal-inline-20-minute-evaluation .bg-default {
+
+            background: #232A2E !important;
+
+            border-color: #475258 !important;
+
+        }
+
+        /* BUTTONS */
+
+        #my-cal-inline-20-minute-evaluation button {
+
+            background: #232A2E !important;
+
+            border-color: #475258 !important;
+
+            color: #D3C6AA !important;
+
+            transition: all 0.2s ease;
+
+        }
+
+        /* HOVER */
+
+        #my-cal-inline-20-minute-evaluation button:hover {
+
+            background: #343F44 !important;
+
+        }
+
+        /* ACTIVE STATES */
+
+        #my-cal-inline-20-minute-evaluation button[aria-pressed="true"],
+        #my-cal-inline-20-minute-evaluation button[data-selected="true"] {
+
+            background: #A7C080 !important;
+
+            color: #232A2E !important;
+
+            border-color: #A7C080 !important;
+
+        }
+
+        /* LINKS / TIMESLOTS */
+
+        #my-cal-inline-20-minute-evaluation a {
+
+            background: #232A2E !important;
+
+            border-color: #475258 !important;
+
+            color: #D3C6AA !important;
+
+        }
+
+        /* TYPOGRAPHY */
+
+        #my-cal-inline-20-minute-evaluation h1,
+        #my-cal-inline-20-minute-evaluation h2,
+        #my-cal-inline-20-minute-evaluation h3,
+        #my-cal-inline-20-minute-evaluation strong {
+
+            color: #E5DDBF !important;
+
+        }
+
+        #my-cal-inline-20-minute-evaluation p,
+        #my-cal-inline-20-minute-evaluation span,
+        #my-cal-inline-20-minute-evaluation small {
+
+            color: #9DA9A0 !important;
+
+        }
+
+        /* FORCE REMOVE PURE BLACK */
+
+        #my-cal-inline-20-minute-evaluation [style*="rgb(0, 0, 0)"],
+        #my-cal-inline-20-minute-evaluation [style*="#000"] {
+
+            background: #232A2E !important;
+
+        }
+
+        /* MODAL BACKDROP */
+
+        [data-cal-modal] {
+
+            background: rgba(35, 42, 46, 0.82) !important;
+
+            backdrop-filter: blur(18px) !important;
+
+        }
+
+        /* MODAL CARD */
+
+        [data-cal-modal]>div,
+        [data-cal-modal] section,
+        [data-cal-modal] article {
+
+            background: #2D353B !important;
+
+            border: 1px solid #475258 !important;
+
+            border-radius: 24px !important;
+
+            color: #D3C6AA !important;
+
+            box-shadow:
+                0 0 0 1px rgba(167, 192, 128, 0.06),
+                0 30px 80px rgba(0, 0, 0, 0.45) !important;
+
+        }
+
+        /* MODAL HEADINGS */
+
+        [data-cal-modal] h1,
+        [data-cal-modal] h2,
+        [data-cal-modal] h3 {
+
+            color: #E5DDBF !important;
+
+        }
+
+        /* MODAL TEXT */
+
+        [data-cal-modal] p,
+        [data-cal-modal] span,
+        [data-cal-modal] small {
+
+            color: #9DA9A0 !important;
+
+        }
+
+        /* MODAL BUTTONS */
+
+        [data-cal-modal] button {
+
+            background: #A7C080 !important;
+
+            color: #232A2E !important;
+
+            border: none !important;
+
+            border-radius: 12px !important;
+
+            font-weight: 700 !important;
+
+        }
+
+        /* REMOVE POWERED BY */
+
+        .cal-powered-by,
+        [data-cal-powered-by] {
+
+            display: none !important;
+
+        }
+    </style>
+
+</body>
+
+</html>

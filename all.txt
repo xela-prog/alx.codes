@@ -1,0 +1,4741 @@
+--- FILE: about.html ---
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Alex — full-stack developer behind alx.codes." />
+    <title>About | alx.codes</title>
+
+    <link rel="stylesheet" href="./dist/output.css" />
+</head>
+
+<body class="bg-background text-text-primary overflow-x-hidden">
+
+    <!-- NAVBAR -->
+    <header class="fixed inset-x-0 top-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl">
+        <nav class="container-x flex h-20 items-center justify-between">
+
+            <a href="index.html" class="font-mono text-lg font-black tracking-tight">
+                <span class="text-primary">~/</span>alx.codes<span class="text-yellow">▌</span>
+            </a>
+
+            <div class="hidden items-center gap-8 md:flex">
+                <a href="index.html#work"
+                    class="font-mono text-sm font-semibold uppercase tracking-[.14em] hover:text-primary">
+                    Work
+                </a>
+
+                <a href="index.html#services"
+                    class="font-mono text-sm font-semibold uppercase tracking-[.14em] hover:text-primary">
+                    Services
+                </a>
+
+                <a href="index.html#stack"
+                    class="font-mono text-sm font-semibold uppercase tracking-[.14em] hover:text-primary">
+                    Stack
+                </a>
+
+                <a href="about.html" class="font-mono text-sm font-semibold uppercase tracking-[.14em] text-primary">
+                    About
+                </a>
+
+                <a href="index.html#contact"
+                    class="font-mono text-sm font-semibold uppercase tracking-[.14em] hover:text-primary">
+                    Contact
+                </a>
+            </div>
+
+            <a href="book.html" class="btn-primary py-2.5">
+                Book a call
+            </a>
+
+        </nav>
+    </header>
+
+    <main class="pt-32">
+
+        <!-- HERO -->
+        <section class="relative overflow-hidden py-20 sm:py-28">
+
+            <div class="noise"></div>
+
+            <div class="container-x grid gap-14 lg:grid-cols-[1fr_.9fr] lg:items-center">
+
+                <div>
+
+                    <p class="eyebrow mb-5">
+                        About Alex
+                    </p>
+
+                    <h1 class="max-w-4xl text-5xl font-black leading-[0.92] tracking-[-0.07em] sm:text-7xl">
+                        Not just websites.
+                        Digital spaces with intent.
+                    </h1>
+
+                    <p class="mt-8 max-w-2xl text-lg leading-8 text-text-secondary">
+                        I’m Alex, a Montreal-based full-stack developer building clean,
+                        responsive websites and interfaces that feel intentional.
+                    </p>
+
+                </div>
+
+                <!-- TERMINAL -->
+                <div class="terminal-window">
+
+                    <div class="window-bar">
+                        <div class="flex gap-2">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+
+                        <p class="font-mono text-xs text-text-secondary">
+                            alex.session
+                        </p>
+                    </div>
+
+                    <div class="space-y-4 p-6 font-mono text-sm">
+
+                        <p>
+                            <span class="text-primary">Name:</span>
+                            Alex
+                        </p>
+
+                        <p>
+                            <span class="text-aqua">Role:</span>
+                            Full-stack developer
+                        </p>
+
+                        <p>
+                            <span class="text-yellow">Experience:</span>
+                            3+ years coding
+                        </p>
+
+                        <p>
+                            <span class="text-orange">Location:</span>
+                            Montreal, Canada
+                        </p>
+
+                        <p>
+                            <span class="text-primary">Status:</span>
+                            Open for freelance + internships
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PHILOSOPHY -->
+        <section class="py-20 sm:py-24">
+
+            <div class="container-x grid gap-10 lg:grid-cols-[0.85fr_1.15fr]">
+
+                <div>
+                    <p class="eyebrow mb-4">
+                        Philosophy
+                    </p>
+
+                    <h2 class="section-title">
+                        I build around the message first.
+                    </h2>
+                </div>
+
+                <div class="space-y-6 text-lg leading-8 text-text-secondary">
+
+                    <p>
+                        I focus on the feeling behind the website —
+                        not just how it looks, but what it communicates.
+                    </p>
+
+                    <p>
+                        I enjoy Linux workflows, clean systems,
+                        terminal aesthetics, and interfaces that feel calm and modern.
+                    </p>
+
+                    <p>
+                        alx.codes is built around that same idea:
+                        sharp design without feeling generic.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SERVICES -->
+        <section class="py-20 sm:py-24">
+
+            <div class="container-x">
+
+                <div class="mb-14 max-w-3xl">
+
+                    <p class="eyebrow mb-4">
+                        What I work on
+                    </p>
+
+                    <h2 class="section-title">
+                        Focused services, built with intention.
+                    </h2>
+
+                </div>
+
+                <div class="grid gap-5 lg:grid-cols-[1.2fr_0.8fr]">
+
+                    <!-- MAIN CARD -->
+                    <div class="panel rounded-[2rem] p-8 sm:p-10">
+
+                        <p class="font-mono text-sm text-primary">
+                            01 / main service
+                        </p>
+
+                        <h3 class="mt-6 text-4xl font-black tracking-[-.05em]">
+                            Website development
+                        </h3>
+
+                        <p class="mt-5 max-w-2xl text-lg leading-8 text-text-secondary">
+                            Custom websites built from scratch with clean structure,
+                            responsive layouts, and a clear message behind the design.
+                        </p>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="panel rounded-[2rem] p-8">
+
+                        <p class="font-mono text-sm text-aqua">
+                            02
+                        </p>
+
+                        <h3 class="mt-6 text-2xl font-black">
+                            Redesigns
+                        </h3>
+
+                        <p class="mt-4 text-text-secondary">
+                            Turning outdated websites into cleaner, sharper experiences.
+                        </p>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="panel rounded-[2rem] p-8">
+
+                        <p class="font-mono text-sm text-yellow">
+                            03
+                        </p>
+
+                        <h3 class="mt-6 text-2xl font-black">
+                            Debugging
+                        </h3>
+
+                        <p class="mt-4 text-text-secondary">
+                            Fixing layouts, responsiveness, forms, and interface issues.
+                        </p>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="panel rounded-[2rem] p-8">
+
+                        <p class="font-mono text-sm text-orange">
+                            04
+                        </p>
+
+                        <h3 class="mt-6 text-2xl font-black">
+                            Dashboards
+                        </h3>
+
+                        <p class="mt-4 text-text-secondary">
+                            Simple dashboards for businesses, projects, and personal tools.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CTA -->
+        <section class="py-24 sm:py-28">
+
+            <div class="container-x">
+
+                <div
+                    class="panel relative overflow-hidden rounded-[2.8rem] border border-white/5 bg-secondary/45 px-8 py-10 sm:px-14 sm:py-14">
+
+                    <!-- Glow -->
+                    <div class="absolute -left-20 top-0 h-72 w-72 rounded-full bg-primary/10 blur-3xl"></div>
+
+                    <div class="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-aqua/10 blur-3xl"></div>
+
+                    <div class="relative z-10">
+
+                        <div class="max-w-4xl">
+
+                            <p class="eyebrow mb-5">
+                                Next step
+                            </p>
+
+                            <h2 class="max-w-4xl text-4xl font-black leading-[0.95] tracking-[-0.07em] sm:text-6xl">
+
+                                Let’s build something that actually feels intentional.
+
+                            </h2>
+
+                            <p class="mt-8 max-w-2xl text-lg leading-8 text-text-secondary">
+
+                                Whether it’s a redesign, a new idea,
+                                or fixing an existing website,
+                                Alex builds experiences that feel clean,
+                                responsive, and memorable.
+
+                            </p>
+
+                        </div>
+
+                        <!-- BOTTOM -->
+                        <div
+                            class="mt-12 flex flex-col gap-6 border-t border-white/5 pt-8 lg:flex-row lg:items-center lg:justify-between">
+
+                            <!-- STATUS -->
+                            <div
+                                class="inline-flex w-fit items-center gap-3 rounded-full border border-primary/15 bg-primary/5 px-5 py-3">
+
+                                <span class="h-2.5 w-2.5 rounded-full bg-primary"></span>
+
+                                <p class="font-mono text-xs uppercase tracking-[0.22em] text-primary">
+
+                                    Available for freelance & internships
+
+                                </p>
+
+                            </div>
+
+                            <!-- BUTTONS -->
+                            <div class="flex flex-col gap-4 sm:flex-row">
+
+                                <a href="index.html#contact"
+                                    class="inline-flex h-14 w-[210px] items-center justify-center rounded-2xl bg-primary px-7 font-semibold text-background transition duration-300 hover:-translate-y-1 hover:bg-aqua">
+
+                                    Contact Alex
+
+                                </a>
+
+                                <a href="index.html#work"
+                                    class="inline-flex h-14 w-[210px] items-center justify-center rounded-2xl border border-white/10 bg-background/40 px-7 font-semibold text-text-primary transition duration-300 hover:-translate-y-1 hover:border-primary/20 hover:bg-primary/5 hover:text-primary">
+
+                                    View Projects
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-border py-10">
+
+        <div class="container-x flex flex-col justify-between gap-4 font-mono text-sm text-text-secondary sm:flex-row">
+
+            <p>
+                <span class="text-primary">~/</span>alx.codes — available for freelance and internships.
+            </p>
+
+            <p>
+                Built with Everforest energy.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="./src/main.js"></script>
+
+</body>
+
+</html>
+
+--- FILE: book.html ---
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Call | alx.codes</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+</head>
+
+<body class="bg-background text-text-primary overflow-x-hidden">
+
+    <div id="cursor-glow" class="cursor-glow hidden md:block" aria-hidden="true"></div>
+    <div class="noise opacity-10 fixed inset-0 pointer-events-none z-[-1]"></div>
+
+    <header id="navbar" class="fixed inset-x-0 top-0 z-50 border-b border-transparent transition-all duration-300">
+        <nav class="container-x flex h-20 items-center justify-between" aria-label="Primary navigation">
+            <a href="index.html" class="group font-mono text-lg font-black tracking-tight text-text-primary"
+                aria-label="alx.codes home">
+                <span class="text-primary">~/</span>alx.codes<span class="text-yellow">▌</span>
+            </a>
+            <p class="eyebrow flex items-center justify-center gap-2">
+                <span class="h-2 w-2 rounded-full bg-aqua shadow-[0_0_10px_rgba(131,192,146,0.6)]"></span>
+                /root/schedule
+            </p>
+        </nav>
+    </header>
+
+    <main class="pb-24 pt-32 sm:pt-40">
+
+        <section class="reveal mb-12">
+            <div class="container-x text-center">
+                <h1 class="text-4xl font-black tracking-[-0.04em] sm:text-5xl lg:text-6xl">
+                    Establish Connection.
+                </h1>
+                <p class="mx-auto mt-5 max-w-lg text-base text-text-secondary">
+                    Book a 20-minute sync. Perfect for evaluating project scope, technical requirements, or freelance
+                    availability.
+                </p>
+            </div>
+        </section>
+
+        <div id="my-cal-inline-20-minute-evaluation" class="w-full mt-10 min-h-[600px] sm:min-h-[650px]"></div>
+
+
+
+    </main>
+
+    <script src="./src/main.js"></script>
+
+    <script type="text/javascript">
+
+        (function (C, A, L) {
+
+            let p = function (a, ar) {
+                a.q.push(ar);
+            };
+
+            let d = C.document;
+
+            C.Cal =
+                C.Cal ||
+                function () {
+
+                    let cal = C.Cal;
+                    let ar = arguments;
+
+                    if (!cal.loaded) {
+
+                        cal.ns = {};
+                        cal.q = cal.q || [];
+
+                        d.head
+                            .appendChild(
+                                d.createElement("script")
+                            ).src = A;
+
+                        cal.loaded = true;
+                    }
+
+                    if (ar[0] === L) {
+
+                        const api = function () {
+                            p(api, arguments);
+                        };
+
+                        const namespace = ar[1];
+
+                        api.q = api.q || [];
+
+                        if (typeof namespace === "string") {
+
+                            cal.ns[namespace] =
+                                cal.ns[namespace] || api;
+
+                            p(cal.ns[namespace], ar);
+
+                            p(cal, [
+                                "initNamespace",
+                                namespace
+                            ]);
+
+                        } else {
+
+                            p(cal, ar);
+
+                        }
+
+                        return;
+                    }
+
+                    p(cal, ar);
+                };
+
+        })(
+            window,
+            "https://app.cal.com/embed/embed.js",
+            "init"
+        );
+
+        Cal(
+            "init",
+            "20-minute-evaluation",
+            {
+                origin: "https://app.cal.com"
+            }
+        );
+
+        /* INLINE EMBED */
+
+        Cal.ns["20-minute-evaluation"](
+            "inline",
+            {
+
+                elementOrSelector:
+                    "#my-cal-inline-20-minute-evaluation",
+
+                config: {
+
+                    layout: "month_view",
+
+                    theme: "dark"
+
+                },
+
+                calLink:
+                    "pierre-alexandre-merge-fignole-1lffwn/20-minute-evaluation",
+
+            }
+        );
+
+        /* UI CONFIG */
+
+        Cal.ns["20-minute-evaluation"](
+            "ui",
+            {
+
+                theme: "dark",
+
+                cssVarsPerTheme: {
+
+                    dark: {
+
+                        /* MAIN BRAND */
+                        "cal-brand": "#A7C080",
+
+                        /* BACKGROUNDS */
+                        "cal-bg": "#2D353B",
+                        "cal-bg-emphasis": "#232A2E",
+                        "cal-bg-muted": "#343F44",
+
+                        /* TEXT */
+                        "cal-text": "#D3C6AA",
+                        "cal-text-emphasis": "#E5DDBF",
+                        "cal-text-muted": "#9DA9A0",
+
+                        /* BORDERS */
+                        "cal-border": "#475258",
+
+                        /* BUTTONS */
+                        "cal-button": "#A7C080",
+                        "cal-button-text": "#232A2E",
+
+                        /* STATUS */
+                        "cal-success": "#A7C080",
+                        "cal-error": "#E67E80",
+                        "cal-warning": "#DBBC7F",
+
+                        /* RADIUS */
+                        "cal-radius": "14px"
+
+                    }
+
+                },
+
+                hideEventTypeDetails: false,
+
+                layout: "month_view"
+
+            }
+        );
+
+    </script>
+
+    <style>
+        /* ROOT */
+
+        #my-cal-inline-20-minute-evaluation {
+
+            overflow: hidden !important;
+
+
+            border-radius: 0 0 2rem 2rem;
+
+        }
+
+        /* FORCE THEME VARIABLES */
+
+        #my-cal-inline-20-minute-evaluation,
+        #my-cal-inline-20-minute-evaluation * {
+
+            --cal-brand: #A7C080 !important;
+
+            --cal-bg: #2D353B !important;
+            --cal-bg-emphasis: #232A2E !important;
+            --cal-bg-muted: #343F44 !important;
+
+            --cal-text: #D3C6AA !important;
+            --cal-text-emphasis: #E5DDBF !important;
+            --cal-text-muted: #9DA9A0 !important;
+
+            --cal-border: #475258 !important;
+
+        }
+
+        /* IFRAME */
+
+        #my-cal-inline-20-minute-evaluation iframe {
+
+            width: 100% !important;
+
+            height: 620px !important;
+
+            border: none !important;
+
+            display: block !important;
+
+            overflow: hidden !important;
+        }
+
+        /* REMOVE WHITE / BLACK PANELS */
+
+        #my-cal-inline-20-minute-evaluation section,
+        #my-cal-inline-20-minute-evaluation article,
+        #my-cal-inline-20-minute-evaluation main,
+        #my-cal-inline-20-minute-evaluation aside,
+        #my-cal-inline-20-minute-evaluation form,
+        #my-cal-inline-20-minute-evaluation div {
+
+            background-color: transparent !important;
+
+        }
+
+        /* ACTUAL CAL SURFACES */
+
+        #my-cal-inline-20-minute-evaluation [class*="bg-emphasis"],
+        #my-cal-inline-20-minute-evaluation [data-testid],
+        #my-cal-inline-20-minute-evaluation .bg-default {
+
+            background: #232A2E !important;
+
+            border-color: #475258 !important;
+
+        }
+
+        /* BUTTONS */
+
+        #my-cal-inline-20-minute-evaluation button {
+
+            background: #232A2E !important;
+
+            border-color: #475258 !important;
+
+            color: #D3C6AA !important;
+
+            transition: all 0.2s ease;
+
+        }
+
+        /* HOVER */
+
+        #my-cal-inline-20-minute-evaluation button:hover {
+
+            background: #343F44 !important;
+
+        }
+
+        /* ACTIVE STATES */
+
+        #my-cal-inline-20-minute-evaluation button[aria-pressed="true"],
+        #my-cal-inline-20-minute-evaluation button[data-selected="true"] {
+
+            background: #A7C080 !important;
+
+            color: #232A2E !important;
+
+            border-color: #A7C080 !important;
+
+        }
+
+        /* LINKS / TIMESLOTS */
+
+        #my-cal-inline-20-minute-evaluation a {
+
+            background: #232A2E !important;
+
+            border-color: #475258 !important;
+
+            color: #D3C6AA !important;
+
+        }
+
+        /* TYPOGRAPHY */
+
+        #my-cal-inline-20-minute-evaluation h1,
+        #my-cal-inline-20-minute-evaluation h2,
+        #my-cal-inline-20-minute-evaluation h3,
+        #my-cal-inline-20-minute-evaluation strong {
+
+            color: #E5DDBF !important;
+
+        }
+
+        #my-cal-inline-20-minute-evaluation p,
+        #my-cal-inline-20-minute-evaluation span,
+        #my-cal-inline-20-minute-evaluation small {
+
+            color: #9DA9A0 !important;
+
+        }
+
+        /* FORCE REMOVE PURE BLACK */
+
+        #my-cal-inline-20-minute-evaluation [style*="rgb(0, 0, 0)"],
+        #my-cal-inline-20-minute-evaluation [style*="#000"] {
+
+            background: #232A2E !important;
+
+        }
+
+        /* MODAL BACKDROP */
+
+        [data-cal-modal] {
+
+            background: rgba(35, 42, 46, 0.82) !important;
+
+            backdrop-filter: blur(18px) !important;
+
+        }
+
+        /* MODAL CARD */
+
+        [data-cal-modal]>div,
+        [data-cal-modal] section,
+        [data-cal-modal] article {
+
+            background: #2D353B !important;
+
+            border: 1px solid #475258 !important;
+
+            border-radius: 24px !important;
+
+            color: #D3C6AA !important;
+
+            box-shadow:
+                0 0 0 1px rgba(167, 192, 128, 0.06),
+                0 30px 80px rgba(0, 0, 0, 0.45) !important;
+
+        }
+
+        /* MODAL HEADINGS */
+
+        [data-cal-modal] h1,
+        [data-cal-modal] h2,
+        [data-cal-modal] h3 {
+
+            color: #E5DDBF !important;
+
+        }
+
+        /* MODAL TEXT */
+
+        [data-cal-modal] p,
+        [data-cal-modal] span,
+        [data-cal-modal] small {
+
+            color: #9DA9A0 !important;
+
+        }
+
+        /* MODAL BUTTONS */
+
+        [data-cal-modal] button {
+
+            background: #A7C080 !important;
+
+            color: #232A2E !important;
+
+            border: none !important;
+
+            border-radius: 12px !important;
+
+            font-weight: 700 !important;
+
+        }
+
+        /* REMOVE POWERED BY */
+
+        .cal-powered-by,
+        [data-cal-powered-by] {
+
+            display: none !important;
+
+        }
+    </style>
+
+</body>
+
+</html>
+
+--- FILE: form.html ---
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>Project Form | alx.codes</title>
+
+  <link
+    rel="stylesheet"
+    href="./dist/output.css"
+  />
+</head>
+
+<body class="bg-background text-text-primary overflow-x-hidden">
+
+  <div
+    id="cursor-glow"
+    class="cursor-glow hidden md:block"
+  ></div>
+
+  <!-- NAV -->
+  <header
+    id="navbar"
+    class="fixed inset-x-0 top-0 z-50 border-b border-transparent transition-all duration-300"
+  >
+
+    <nav class="container-x flex h-20 items-center justify-between">
+
+      <a
+        href="index.html"
+        class="font-mono text-lg font-black tracking-tight text-text-primary"
+      >
+        <span class="text-primary">~/</span>alx.codes<span class="text-yellow">▌</span>
+      </a>
+
+      <div class="hidden items-center gap-8 md:flex">
+
+        <a
+          href="index.html#work"
+          class="font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition hover:text-primary"
+        >
+          Work
+        </a>
+
+        <a
+          href="about.html"
+          class="font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition hover:text-primary"
+        >
+          About
+        </a>
+
+        <a
+          href="form.html"
+          class="font-mono text-sm font-semibold uppercase tracking-[.14em] text-primary"
+        >
+          Form
+        </a>
+
+        <a
+          href="book.html"
+          class="font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition hover:text-primary"
+        >
+          Book
+        </a>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <main class="pt-32">
+
+    <!-- HERO -->
+    <section class="pb-14">
+
+      <div class="container-x">
+
+        <div class="max-w-4xl">
+
+          <p class="eyebrow mb-5">
+            Project form
+          </p>
+
+          <h1
+            class="text-5xl font-black leading-[0.88] tracking-[-0.07em] sm:text-7xl"
+          >
+            Explain the project.<br />
+            I’ll handle the rest.
+          </h1>
+
+          <p
+            class="mt-8 max-w-2xl text-lg leading-8 text-text-secondary"
+          >
+            Send project details,
+            redesign requests,
+            bug reports,
+            or collaboration ideas.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- FORM -->
+    <section class="pb-24 sm:pb-32">
+
+      <div class="container-x">
+
+        <div
+          class="overflow-hidden rounded-[2rem] border border-border bg-surface/55 shadow-soft backdrop-blur-xl"
+        >
+
+          <!-- TOP -->
+          <div
+            class="flex items-center justify-between border-b border-border px-6 py-5"
+          >
+
+            <div class="flex gap-2">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+
+            <p
+              class="font-mono text-xs uppercase tracking-[0.18em] text-text-secondary"
+            >
+              request.form
+            </p>
+
+          </div>
+
+          <!-- BODY -->
+          <div
+            class="grid gap-10 lg:grid-cols-[320px_1fr]"
+          >
+
+            <!-- LEFT -->
+            <aside
+              class="border-b border-border bg-background/25 p-8 lg:border-b-0 lg:border-r"
+            >
+
+              <p
+                class="font-mono text-xs uppercase tracking-[0.18em] text-primary"
+              >
+                Contact
+              </p>
+
+              <h2
+                class="mt-6 text-3xl font-black leading-[1.05] tracking-[-0.05em]"
+              >
+                Let’s build something clean and useful.
+              </h2>
+
+              <p
+                class="mt-6 leading-7 text-text-secondary"
+              >
+                Frontend systems,
+                redesigns,
+                freelance projects,
+                and debugging work.
+              </p>
+
+              <div class="mt-10 space-y-8">
+
+                <div>
+
+                  <p
+                    class="font-mono text-xs uppercase tracking-[0.18em] text-text-secondary"
+                  >
+                    Email
+                  </p>
+
+                  <p class="mt-2 text-lg font-semibold">
+                    fignole.dev@gmail.com
+                  </p>
+
+                </div>
+
+                <div>
+
+                  <p
+                    class="font-mono text-xs uppercase tracking-[0.18em] text-text-secondary"
+                  >
+                    Location
+                  </p>
+
+                  <p class="mt-2 text-lg font-semibold">
+                    Montreal, Canada
+                  </p>
+
+                </div>
+
+              </div>
+
+            </aside>
+
+            <!-- RIGHT -->
+            <div class="p-8 sm:p-10 lg:p-12">
+
+              <form
+                action="https://formsubmit.co/fignole.dev@gmail.com"
+                method="POST"
+                class="space-y-6"
+              >
+
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New project request from alx.codes"
+                />
+
+                <div class="grid gap-6 md:grid-cols-2">
+
+                  <div class="floating-field">
+
+                    <input
+                      id="firstName"
+                      name="firstName"
+                      required
+                      placeholder=""
+                    />
+
+                    <label for="firstName">
+                      First name
+                    </label>
+
+                  </div>
+
+                  <div class="floating-field">
+
+                    <input
+                      id="lastName"
+                      name="lastName"
+                      required
+                      placeholder=""
+                    />
+
+                    <label for="lastName">
+                      Last name
+                    </label>
+
+                  </div>
+
+                </div>
+
+                <div class="floating-field">
+
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                    placeholder=""
+                  />
+
+                  <label for="email">
+                    Email
+                  </label>
+
+                </div>
+
+                <div class="floating-field">
+
+                  <input
+                    id="budget"
+                    name="budget"
+                    placeholder=""
+                  />
+
+                  <label for="budget">
+                    Budget (optional)
+                  </label>
+
+                </div>
+
+                <div class="floating-field">
+
+                  <textarea
+                    id="message"
+                    name="message"
+                    required
+                    rows="8"
+                    placeholder=""
+                  ></textarea>
+
+                  <label for="message">
+                    Project details
+                  </label>
+
+                </div>
+
+                <div
+                  class="flex flex-col gap-5 pt-2 sm:flex-row sm:items-center sm:justify-between"
+                >
+
+                  <div>
+
+                    <p
+                      class="font-mono text-xs uppercase tracking-[0.18em] text-text-secondary"
+                    >
+                      Structured replies
+                    </p>
+
+                    <p
+                      class="mt-2 text-sm text-text-secondary"
+                    >
+                      Usually answered within 24 hours.
+                    </p>
+
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn-primary h-14 px-10"
+                  >
+                    Send request →
+                  </button>
+
+                </div>
+
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-border py-10">
+
+    <div
+      class="container-x flex flex-col justify-between gap-4 font-mono text-sm text-text-secondary sm:flex-row"
+    >
+
+      <p>
+        <span class="text-primary">~/</span>alx.codes
+      </p>
+
+      <p>
+        Montreal, Canada
+      </p>
+
+      <p>
+        Built with Everforest energy.
+      </p>
+
+    </div>
+
+  </footer>
+
+  <script src="./src/main.js"></script>
+
+</body>
+
+</html>
+
+--- FILE: index.html ---
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="alx.codes — premium full-stack developer portfolio for Pierre-Alexandre Merge Fignole." />
+  <title>alx.codes | Full-Stack Developer</title>
+  <link rel="stylesheet" href="./dist/output.css" />
+</head>
+
+<body class="bg-background text-text-primary">
+  <div id="cursor-glow" class="cursor-glow hidden md:block" aria-hidden="true"></div>
+
+  <header id="navbar" class="fixed inset-x-0 top-0 z-50 border-b border-transparent transition-all duration-300">
+    <nav class="container-x flex h-20 items-center justify-between" aria-label="Primary navigation">
+      <a href="#home" class="group font-mono text-lg font-black tracking-tight text-text-primary"
+        aria-label="alx.codes home">
+        <span class="text-primary">~/</span>alx.codes<span class="text-yellow">▌</span>
+      </a>
+      <div class="hidden items-center gap-8 md:flex">
+        <a class="nav-link font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition-all duration-300 hover:text-primary"
+          href="#work">
+          Work
+        </a>
+
+        <a class="nav-link font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition-all duration-300 hover:text-primary"
+          href="#services">
+          Services
+        </a>
+
+        <a class="nav-link font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition-all duration-300 hover:text-primary"
+          href="#stack">
+          Stack
+        </a>
+
+        <a class="nav-link font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition-all duration-300 hover:text-primary"
+          href="about.html">
+          About
+        </a>
+
+        <a class="nav-link font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition-all duration-300 hover:text-primary"
+          href="index.html#contact">
+          Contact
+        </a>
+      </div>
+      <div class="hidden items-center gap-4 sm:flex">
+        <span
+          class="inline-flex items-center gap-2 rounded-full bg-surface/70 px-4 py-2 font-mono text-xs text-text-secondary"><span
+            class="h-2 w-2 rounded-full bg-primary shadow-[0_0_20px_rgba(167,192,128,.75)]"></span>AVAILABLE</span>
+        <a href="book.html" class="btn-primary py-2.5">Book a call</a>
+      </div>
+      <button id="menu-btn"
+        class="rounded-xl border border-border bg-surface/70 px-4 py-3 font-mono text-sm text-primary md:hidden"
+        aria-expanded="false" aria-controls="mobile-menu">menu</button>
+    </nav>
+    <div id="mobile-menu" class="hidden border-t border-border bg-background/95 px-5 py-6 backdrop-blur-xl md:hidden">
+      <div class="grid gap-4 font-mono text-sm uppercase tracking-[.18em]">
+        <a class="mobile-link text-text-secondary" href="index.html#work">Work</a>
+        <a class="mobile-link text-text-secondary" href="index.html#services">Services</a>
+        <a class="mobile-link text-text-secondary" href="index.html#stack">Stack</a>
+        <a class="mobile-link text-text-secondary" href="about.html">About</a>
+        <a class="mobile-link text-primary" href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="relative min-h-screen overflow-hidden pt-32">
+      <div class="noise"></div>
+      <div class="container-x grid min-h-[calc(100vh-8rem)] items-center gap-12 pb-20 lg:grid-cols-[1.04fr_.96fr]">
+        <div class="reveal">
+          <p class="eyebrow mb-6">Full-stack developer</p>
+          <h1 class="max-w-4xl text-5xl font-black leading-[.88] tracking-[-.07em] sm:text-7xl lg:text-8xl">
+            Alexandre builds software.
+          </h1>
+          <p class="mt-8 max-w-2xl text-lg leading-8 text-text-secondary">
+            alx.codes is my digital workspace: a portfolio for clean websites, landing pages, bug fixes, redesigns, and
+            full-stack projects that feel sharp without feeling generic.
+          </p>
+          <div class="mt-9 flex flex-col gap-4 sm:flex-row">
+            <a class="btn-primary" href="projects.html">Explore the build log <span aria-hidden="true">→</span></a>
+            <a class="btn-secondary" href="index.html#contact">Start a freelance project</a>
+          </div>
+          <div class="mt-10 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4">
+            <div class="panel rounded-2xl p-4">
+              <p class="font-mono text-2xl font-black text-primary">3+</p>
+              <p class="mt-1 text-sm text-text-secondary">years of experience</p>
+            </div>
+            <div class="panel rounded-2xl p-4">
+              <p class="font-mono text-2xl font-black text-aqua">10+</p>
+              <p class="mt-1 text-sm text-text-secondary">completed projects</p>
+            </div>
+            <div class="panel rounded-2xl p-4">
+              <p class="font-mono text-2xl font-black text-yellow">10+</p>
+              <p class="mt-1 text-sm text-text-secondary">satisfied clients</p>
+            </div>
+            <div class="panel rounded-2xl p-4">
+              <p class="font-mono text-2xl font-black text-orange">100%</p>
+              <p class="mt-1 text-sm text-text-secondary">commitment to quality</p>
+            </div>
+          </div>
+        </div>
+
+        <aside class="terminal-window reveal floaty" aria-label="Developer terminal preview">
+          <div class="window-bar">
+            <div class="flex gap-2"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+            <p class="font-mono text-xs text-text-secondary">alx.codes / live-session</p>
+          </div>
+          <div class="space-y-5 p-5 sm:p-7">
+            <div class="rounded-2xl border border-border bg-background/40 p-5">
+              <span class="code-line"><span class="g">➜</span> whoami</span>
+              <span class="code-line mt-2">Alexandre your personal problem solver</span>
+            </div>
+            <div class="rounded-2xl border border-border bg-background/40 p-5">
+              <span class="code-line"><span class="g">➜</span> npm run build</span>
+              <span class="code-line mt-2"><span class="o">planning</span> establish what you need</span>
+              <span class="code-line"><span class="y">building</span> creative solutions</span>
+              <span class="code-line"><span class="a">delivering</span> professional results</span>
+            </div>
+            <p class="font-mono text-sm text-text-secondary type-caret">waiting for next project</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="work" class="reveal pt-24 pb-10 sm:pt-32 sm:pb-14">
+      <div class="container-x">
+        <div class="mb-14 flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
+          <div>
+            <p class="eyebrow mb-4">Featured work</p>
+            <h2 class="section-title max-w-3xl">Projects presented like products, not thumbnails.</h2>
+          </div>
+          <p class="max-w-xl text-text-secondary">The first three cards are designed for your strongest projects.
+            Replace the screenshot placeholders, links, and descriptions when your final project info is ready.</p>
+        </div>
+        <div class="grid gap-6">
+          <article class="project-card panel rounded-[2rem] p-5 sm:p-7">
+            <div class="mb-5 flex flex-wrap items-center justify-between gap-3">
+              <h3 class="text-3xl font-black tracking-[-.04em]">Tissus Liquidation</h3><span
+                class="chip">Featured_01</span>
+            </div>
+            <img src="./assets/images/tissu.png" alt="Screenshot of Tissus Liquidation website"
+              class="rounded-2xl border border-border">
+            <div class="grid gap-8 lg:grid-cols-[1fr_.7fr]">
+              <p class="text-lg leading-8 mt-4 text-text-secondary">Built for a local fabric business owned by an
+                elderly entrepreneur, this website boosted her online presence, brought in new clients, and generated
+                enquiries from model agencies looking for fabric sourcing.</p>
+              <div class="space-y-4">
+                <div class="flex mt-4 flex-wrap gap-2"><span class="chip">HTML</span><span class="chip">
+                    CSS</span><span class="chip">JavaScript</span></div>
+                <div class="flex gap-3"><a class="btn-primary py-2.5 flex-1"
+                    href="https://tissusliquidation.com/pages/homepage.html">Live</a><a
+                    class="btn-secondary py-2.5 flex-1"
+                    href="https://github.com/xela-prog/Tissus-Liquidation-Web">GitHub</a></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="reveal py-10 sm:py-14">
+      <div class="container-x">
+        <div class="grid gap-6">
+          <article class="project-card panel rounded-[2rem] p-5 sm:p-7">
+            <div class="mb-5 flex flex-wrap items-center justify-between gap-3">
+              <h3 class="text-3xl font-black tracking-[-.04em]">OpenPad</h3><span class="chip">Featured_02</span>
+            </div>
+            <img src="./assets/images/openpad.png" alt="Screenshot of OpenPad in Terminal"
+              class="rounded-2xl border border-border">
+            <div class="grid gap-8 lg:grid-cols-[1fr_.7fr]">
+              <p class="text-lg leading-8 mt-4 text-text-secondary">A terminal-based notes app that stores notes as
+                markdown files with markdown styling. Includes an optional calendar integration via API. Built primarily
+                for developers and computer science students to complement OpenCode, supporting testing, note-taking,
+                and studying. Still in development with the first launch already available.</p>
+              <div class="space-y-4">
+                <div class="flex mt-4 flex-wrap gap-2"><span class="chip">Terminal</span><span class="chip">
+                    Markdown</span><span class="chip">Python</span></div>
+                <div class="flex gap-3"><a class="btn-primary py-2.5 flex-1"
+                    href="https://pypi.org/project/openpad/1.0.3/">Live</a><a class="btn-secondary py-2.5 flex-1"
+                    href="https://github.com/xela-prog/openpad-full">GitHub</a></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="reveal py-10 sm:py-14">
+      <div class="container-x">
+        <div class="grid gap-6">
+          <article class="project-card panel rounded-[2rem] p-5 sm:p-7">
+            <div class="mb-5 flex flex-wrap items-center justify-between gap-3">
+              <h3 class="text-3xl font-black tracking-[-.04em]">MoneyDash</h3><span class="chip">Featured_03</span>
+            </div>
+            <img src="./assets/images/moneydash.png" alt="Screenshot of MoneyDash in terminal"
+              class="rounded-2xl border border-border">
+            <div class="grid gap-8 lg:grid-cols-[1fr_.7fr]">
+              <p class="text-lg leading-8 mt-4 text-text-secondary">A fun, terminal-based money dashboard that helps you
+                set a budget, track how far you've gone, and stay on top of your finances. The next version will connect
+                directly to your bank account, so you won't need to enter anything manually.</p>
+              <div class="space-y-4">
+                <div class="flex mt-4 flex-wrap gap-2"><span class="chip">HTML</span><span class="chip">
+                    CSS</span><span class="chip">JavaScript</span></div>
+                <div class="flex gap-3"><a class="btn-primary py-2.5 flex-1" href="#">Coming soon</a></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal py-10 sm:py-14">
+      <div class="container-x">
+        <article class="project-card panel rounded-[2rem] p-5 sm:p-7">
+          <div class="mb-5 flex flex-wrap items-center justify-between gap-3">
+            <h3 class="text-3xl font-black tracking-[-.04em]">More Projects</h3>
+          </div>
+
+          <div class="grid gap-6 lg:grid-cols-[1fr_.7fr] lg:items-center">
+            <p class="text-lg leading-8 text-text-secondary">
+              Want to see more builds, experiments, and ongoing work? Browse my GitHub to explore full repositories.
+            </p>
+
+            <div class="flex gap-3">
+              <a href="https://github.com/xela-prog" class="btn-primary py-2.5 flex-1 text-center">
+                Visit My GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="reveal py-24 sm:py-32">
+      <div class="container-x">
+        <div class="mb-14 max-w-3xl">
+          <p class="eyebrow mb-4">Services</p>
+          <h2 class="section-title">Flexible work, no fixed-price trap.</h2>
+          <p class="mt-6 text-lg leading-8 text-text-secondary">Pricing is handled through conversation so the scope can
+            match the business, timeline, and level of polish required.</p>
+        </div>
+        <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+          <div class="panel rounded-3xl p-6">
+            <p class="font-mono text-sm text-primary">01</p>
+            <h3 class="mt-6 text-2xl font-black">Websites</h3>
+            <p class="mt-4 text-text-secondary">Clean, responsive sites for trust, clarity, and credibility.</p>
+          </div>
+          <div class="panel rounded-3xl p-6">
+            <p class="font-mono text-sm text-aqua">02</p>
+            <h3 class="mt-6 text-2xl font-black">Landing pages</h3>
+            <p class="mt-4 text-text-secondary">Focused pages for offers, campaigns, launches, and portfolios.</p>
+          </div>
+          <div class="panel rounded-3xl p-6">
+            <p class="font-mono text-sm text-yellow">03</p>
+            <h3 class="mt-6 text-2xl font-black">Bug fixing</h3>
+            <p class="mt-4 text-text-secondary">Debugging layout issues, broken logic, responsiveness, and UI bugs.</p>
+          </div>
+          <div class="panel rounded-3xl p-6">
+            <p class="font-mono text-sm text-orange">04</p>
+            <h3 class="mt-6 text-2xl font-black">Redesigns</h3>
+            <p class="mt-4 text-text-secondary">Modern refreshes that make existing websites feel premium again.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="reveal relative overflow-hidden py-24 sm:py-32">
+      <div class="absolute inset-0 -z-10 opacity-40">
+        <div class="absolute left-1/3 top-0 h-72 w-72 rounded-full bg-primary/10 blur-3xl"></div>
+        <div class="absolute bottom-0 right-1/4 h-72 w-72 rounded-full bg-aqua/10 blur-3xl"></div>
+      </div>
+
+      <div class="container-x grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+        <div class="lg:sticky lg:top-32">
+          <p class="eyebrow mb-4">Tech Stack</p>
+
+          <h2 class="section-title leading-tight">
+            Type like you’re inside my dev environment.
+          </h2>
+
+          <p class="mt-6 max-w-xl text-lg leading-relaxed text-text-secondary">
+            A small terminal-style view of the tools I use to build, debug, and ship modern web projects.
+          </p>
+        </div>
+
+        <div class="panel overflow-hidden rounded-3xl border border-white/10 bg-secondary/70 shadow-2xl backdrop-blur">
+          <div class="flex items-center justify-between border-b border-white/10 px-5 py-3">
+            <div class="flex items-center gap-2">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+
+            <p class="font-mono text-xs uppercase tracking-[0.18em] text-text-secondary">
+              stack@alx.codes
+            </p>
+          </div>
+
+          <div class="min-h-[430px] p-6 font-mono text-sm">
+            <p class="text-text-secondary">Welcome to Pierre-Alexandre’s stack terminal.</p>
+
+            <div id="stack-output" class="mt-6 space-y-3">
+              <p>
+                <span class="text-primary">visitor@alx.codes</span>
+                <span class="text-text-secondary">:</span>
+                <span class="text-aqua">~</span>
+                <span class="text-text-secondary">$</span>
+              </p>
+            </div>
+
+            <form id="stack-terminal-form" class="mt-4 flex items-center gap-2">
+              <span class="font-mono text-primary">$</span>
+              <input id="stack-terminal-input"
+                class="w-full appearance-none bg-transparent font-mono text-sm text-text-primary outline-none placeholder:text-text-secondary/50"
+                type="text" autocomplete="off" placeholder="Input command..." />
+            </form>
+
+            <p class="mt-6 text-xs text-text-secondary">
+              Try: <span class="text-primary">c stack</span> or <span class="text-yellow">clear</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="reveal py-24 sm:py-32">
+      <div class="container-x grid gap-10 lg:grid-cols-[0.75fr_1.25fr] lg:items-center">
+
+        <div class="terminal-window max-w-[28rem] overflow-hidden">
+          <div class="window-bar">
+            <div class="flex gap-2">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+
+            <p class="font-mono text-xs text-text-secondary">profile.md</p>
+          </div>
+
+          <div class="p-5">
+
+            <img src="./assets/images/profile.png" alt="Profile of Pierre-Alexandre"
+              class="aspect-[4/5] w-full rounded-2xl object-cover opacity-95" />
+          </div>
+        </div>
+
+        <div>
+          <p class="eyebrow mb-4">About</p>
+
+          <h2 class="section-title">
+            Young developer, serious taste.
+          </h2>
+
+          <div class="mt-8 space-y-5 text-lg leading-8 text-text-secondary">
+            <p>
+              I’m Pierre-Alexandre Merge Fignole, a full-stack developer building under alx.codes.
+              I care about websites that feel intentional: fast, responsive, readable, and memorable.
+            </p>
+
+            <p>
+              I like developer tools, Linux workflows, terminal aesthetics, and interfaces that look calm
+              but still have personality. This portfolio is built to show that I can create for both
+              technical people and clients who just want something that works beautifully.
+            </p>
+
+            <p>
+              This section is intentionally casual so you can add your real story later without rewriting
+              the whole design.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="contact" class="reveal py-24 sm:py-32">
+      <div class="container-x">
+        <div class="panel relative overflow-hidden rounded-[2rem] p-7 sm:p-10 lg:p-14">
+          <div class="noise"></div>
+
+          <div class="relative grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-start lg:gap-16">
+
+            <div class="flex flex-col justify-between h-full">
+              <div>
+                <p class="eyebrow mb-4">/root/contact</p>
+                <h2 class="section-title max-w-2xl text-4xl sm:text-5xl lg:text-6xl mb-6">
+                  Initialize<br />Connection.
+                </h2>
+
+                <div class="space-y-6 mt-8 text-lg leading-8 text-text-secondary max-w-xl">
+                  <p>
+                    Whether you are looking for a full-stack build, a site redesign, or urgent website maintenance, my
+                    system is ready to process your request.
+                  </p>
+                  <p>
+                    Pricing is scope-dependent. Book a call or send a direct request below, and we'll outline the exact
+                    architecture you need.
+                  </p>
+                </div>
+              </div>
+
+              <div class="mt-12 rounded-2xl border border-border bg-background/50 p-6 backdrop-blur-sm">
+                <div class="flex items-center justify-between mb-4">
+                  <p class="font-mono text-xs uppercase tracking-[.18em] text-yellow">System Status</p>
+                  <span class="inline-flex items-center gap-2 font-mono text-xs text-text-secondary">
+                    <span class="h-2 w-2 rounded-full bg-aqua shadow-[0_0_15px_rgba(131,192,146,.6)]"></span>
+                    Available
+                  </span>
+                </div>
+                <p class="text-text-primary mb-6">Currently accepting freelance projects & maintenance contracts.</p>
+                <a href="book.html" class="btn-secondary w-full py-3.5 text-sm uppercase tracking-[0.1em]">
+                  Book Discovery Call
+                </a>
+              </div>
+            </div>
+
+            <form id="project-form"
+              class="flex flex-col gap-5 rounded-3xl border border-border bg-surface/60 p-6 sm:p-8 backdrop-blur-md"
+              action="https://formsubmit.co/fignole.dev@gmail.com" method="POST">
+
+              <!-- CONFIG -->
+
+              <input type="hidden" name="_subject" value="New project request from alx.codes" />
+
+              <input type="hidden" name="_captcha" value="false" />
+
+              <!-- NAME + EMAIL -->
+
+              <div class="grid gap-5 sm:grid-cols-2">
+
+                <div>
+
+                  <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                    for="name">
+                    User
+                  </label>
+
+                  <input id="name" name="name" required
+                    class="w-full rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all placeholder:text-text-secondary/40 focus:border-primary"
+                    placeholder="John Doe" />
+
+                </div>
+
+                <div>
+
+                  <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                    for="email">
+                    Email
+                  </label>
+
+                  <input id="email" name="email" type="email" required
+                    class="w-full rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all placeholder:text-text-secondary/40 focus:border-primary"
+                    placeholder="john@server.com" />
+
+                </div>
+
+              </div>
+
+              <!-- OBJECTIVE -->
+
+              <div>
+
+                <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                  for="objective">
+                  Objective
+                </label>
+
+                <div class="relative">
+
+                  <select id="objective" name="objective"
+                    class="w-full appearance-none rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all focus:border-primary">
+
+                    <option value="web-dev">
+                      Website Development
+                    </option>
+
+                    <option value="maintenance">
+                      Website Maintenance
+                    </option>
+
+                    <option value="bug-fix">
+                      Bug Fixing / Optimization
+                    </option>
+
+                    <option value="redesign">
+                      UI/UX Redesign
+                    </option>
+
+                    <option value="dashboard">
+                      Dashboard / Admin Interface
+                    </option>
+
+                    <option value="other">
+                      Other Inquiry
+                    </option>
+
+                  </select>
+
+                  <div
+                    class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-5 text-text-secondary">
+
+                    <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!-- BUDGET + TIMELINE -->
+
+              <div class="grid gap-5 sm:grid-cols-2">
+
+                <!-- BUDGET -->
+
+                <div>
+
+                  <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                    for="budget">
+                    Budget
+                  </label>
+
+                  <div class="relative">
+
+                    <select id="budget" name="budget"
+                      class="w-full appearance-none rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all focus:border-primary">
+
+                      <option value="800-1500">
+                        $800 – $1000
+                      </option>
+
+                      <option value="1500-3000">
+                        $1000 – $2000
+                      </option>
+
+                      <option value="3000-5000">
+                        $2000 – $4000
+                      </option>
+
+                      <option value="5000+">
+                        $4000+
+                      </option>
+
+                    </select>
+
+                    <div
+                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-5 text-text-secondary">
+
+                      <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                      </svg>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <!-- TIMELINE -->
+
+                <div>
+
+                  <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                    for="timeline">
+                    Timeline
+                  </label>
+
+                  <div class="relative">
+
+                    <select id="timeline" name="timeline"
+                      class="w-full appearance-none rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all focus:border-primary">
+
+                      <option value="asap">
+                        ASAP
+                      </option>
+
+                      <option value="1-2-weeks">
+                        1–2 Weeks
+                      </option>
+
+                      <option value="1-month">
+                        1 Month
+                      </option>
+
+                      <option value="flexible">
+                        Flexible
+                      </option>
+
+                    </select>
+
+                    <div
+                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-5 text-text-secondary">
+
+                      <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                      </svg>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!-- EXISTING WEBSITE -->
+
+              <div>
+
+                <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                  for="website">
+                  Existing Website
+                </label>
+
+                <input id="website" name="website" type="url"
+                  class="w-full rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all placeholder:text-text-secondary/40 focus:border-primary"
+                  placeholder="https://example.com" />
+
+              </div>
+
+              <!-- REFERENCES -->
+
+              <div>
+
+                <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                  for="references">
+                  Inspiration / References
+                </label>
+
+                <textarea id="references" name="references" rows="3"
+                  class="w-full resize-y rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all placeholder:text-text-secondary/40 focus:border-primary"
+                  placeholder="Websites, styles, references, or interfaces you like..."></textarea>
+
+              </div>
+
+              <!-- PROJECT DETAILS -->
+
+              <div>
+
+                <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                  for="message">
+                  Requirement Details
+                </label>
+
+                <textarea id="message" name="message" required rows="6"
+                  class="w-full resize-y rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all placeholder:text-text-secondary/40 focus:border-primary"
+                  placeholder="Describe what you need built, your goals, features, timelines, or current problems..."></textarea>
+
+              </div>
+
+              <!-- SUCCESS MESSAGE -->
+
+              <div id="form-success" class="hidden rounded-2xl border border-primary/20 bg-primary/10 px-5 py-4">
+
+                <p class="font-mono text-xs uppercase tracking-[.18em] text-primary">
+                  Request Executed Successfully
+                </p>
+
+                <p class="mt-2 text-sm text-text-secondary">
+                  Your request has been transmitted successfully.
+                  Alex will review the details shortly.
+                </p>
+
+              </div>
+
+              <!-- BUTTON -->
+
+              <button id="submit-btn" class="btn-primary mt-2 w-full py-4 font-mono text-sm uppercase tracking-[.18em]"
+                type="submit">
+                [ Execute_Request ]
+              </button>
+
+            </form>
+
+            <script>
+
+              const form =
+                document.getElementById("project-form");
+
+              const success =
+                document.getElementById("form-success");
+
+              const button =
+                document.getElementById("submit-btn");
+
+              form.addEventListener(
+                "submit",
+                async (e) => {
+
+                  e.preventDefault();
+
+                  button.disabled = true;
+
+                  button.innerText =
+                    "[ Transmitting... ]";
+
+                  const data =
+                    new FormData(form);
+
+                  try {
+
+                    await fetch(
+                      form.action,
+                      {
+                        method: "POST",
+                        body: data,
+                        headers: {
+                          Accept: "application/json"
+                        }
+                      }
+                    );
+
+                    success.classList.remove("hidden");
+
+                    button.innerText =
+                      "[ Request_Executed ]";
+
+                    form.reset();
+
+                    setTimeout(() => {
+
+                      success.classList.add("hidden");
+
+                      button.disabled = false;
+
+                      button.innerText =
+                        "[ Execute_Request ]";
+
+                    }, 7000);
+
+                  } catch (error) {
+
+                    button.disabled = false;
+
+                    button.innerText =
+                      "[ Transmission_Failed ]";
+
+                  }
+
+                }
+              );
+
+            </script>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-border py-10">
+    <div class="container-x flex flex-col justify-between gap-4 font-mono text-sm text-text-secondary sm:flex-row">
+      <p><span class="text-primary">~/</span>alx.codes — available for freelance and work.</p>
+      <p>Built with Everforest energy.</p>
+    </div>
+  </footer>
+
+  <script src="./src/main.js"></script>
+
+  <div id="chat-widget" class="chat-widget">
+    <div id="chat-panel" class="chat-panel hidden">
+      <div class="chat-header">
+        <div>
+          <p class="chat-kicker">Chat with</p>
+          <h3>alx.codes</h3>
+        </div>
+
+        <button id="chat-close" type="button">×</button>
+      </div>
+
+      <div id="chat-messages" class="chat-messages">
+        <div class="chat-bubble bot">
+          Hey, welcome to alx.codes. What’s your name?
+        </div>
+      </div>
+
+      <div id="chat-options" class="chat-options hidden"></div>
+
+      <form id="chat-form" class="chat-form">
+        <input id="chat-input" type="text" autocomplete="off" placeholder="Enter your name..." />
+
+        <button type="submit" aria-label="Send message">
+          ➤
+        </button>
+      </form>
+    </div>
+
+    <button id="chat-toggle" class="chat-toggle" type="button" aria-label="Open chat">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor" stroke-width="2">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+      </svg>
+    </button>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      /* STACK TERMINAL */
+      const stackForm = document.querySelector("#stack-terminal-form");
+      const stackInput = document.querySelector("#stack-terminal-input");
+      const stackOutput = document.querySelector("#stack-output");
+
+      if (stackForm && stackInput && stackOutput) {
+        const terminalCommands = {
+          "c stack": `
+        <div class="mt-4 space-y-4">
+          <p class="text-primary">$ c stack</p>
+
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="rounded-2xl border border-white/10 bg-background/40 p-4">
+              <p class="text-primary">frontend</p>
+              <p class="mt-2 text-text-primary">HTML · CSS · JavaScript · Tailwind CSS</p>
+            </div>
+
+            <div class="rounded-2xl border border-white/10 bg-background/40 p-4">
+              <p class="text-aqua">programming</p>
+              <p class="mt-2 text-text-primary">Python · Java</p>
+            </div>
+
+            <div class="rounded-2xl border border-white/10 bg-background/40 p-4">
+              <p class="text-yellow">workflow</p>
+              <p class="mt-2 text-text-primary">Linux · Fedora · Git · GitHub</p>
+            </div>
+
+            <div class="rounded-2xl border border-white/10 bg-background/40 p-4">
+              <p class="text-orange">mindset</p>
+              <p class="mt-2 text-text-primary">Responsive UI · Debugging · Clean structure</p>
+            </div>
+          </div>
+        </div>
+      `,
+
+          help: `
+        <div class="mt-4 space-y-2">
+          <p class="text-primary">$ help</p>
+          <p><span class="text-primary">c stack</span> → show tech stack</p>
+          <p><span class="text-yellow">clear</span> → clear terminal</p>
+        </div>
+      `,
+        };
+
+        stackForm.addEventListener("submit", (event) => {
+          event.preventDefault();
+
+          const command = stackInput.value.trim().toLowerCase();
+          if (!command) return;
+
+          if (command === "clear") {
+            stackOutput.innerHTML = `
+          <p>
+            <span class="text-primary">visitor@alx.codes</span>
+            <span class="text-text-secondary">:</span>
+            <span class="text-aqua">~</span>
+            <span class="text-text-secondary">$</span>
+          </p>
+        `;
+          } else {
+            stackOutput.innerHTML +=
+              terminalCommands[command] ||
+              `<div class="mt-4"><p class="text-red">Command not found. Try c stack or help.</p></div>`;
+          }
+
+          stackInput.value = "";
+        });
+      }
+
+      /* AUTO-GROW CONTACT TEXTAREA */
+      const messageBox = document.querySelector("#message");
+
+      messageBox?.addEventListener("input", () => {
+        messageBox.style.height = "56px";
+        messageBox.style.height = `${messageBox.scrollHeight}px`;
+      });
+
+      /* GEMINI CHAT WIDGET */
+      const toggle = document.querySelector("#chat-toggle");
+      const panel = document.querySelector("#chat-panel");
+      const close = document.querySelector("#chat-close");
+      const form = document.querySelector("#chat-form");
+      const input = document.querySelector("#chat-input");
+      const messages = document.querySelector("#chat-messages");
+
+      let visitorName = "";
+      let hasName = false;
+
+      function addMessage(text, type = "bot") {
+        const bubble = document.createElement("div");
+        bubble.className = `chat-bubble ${type}`;
+        bubble.textContent = text;
+        messages.appendChild(bubble);
+        messages.scrollTop = messages.scrollHeight;
+      }
+
+      toggle?.addEventListener("click", () => {
+        panel.classList.toggle("hidden");
+      });
+
+      close?.addEventListener("click", () => {
+        panel.classList.add("hidden");
+      });
+
+      form?.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        const value = input.value.trim();
+        if (!value) return;
+
+        addMessage(value, "user");
+        input.value = "";
+
+        if (!hasName) {
+          visitorName = value;
+          hasName = true;
+          input.placeholder = "Ask something...";
+
+          setTimeout(() => {
+            addMessage(
+              `Nice to meet you, ${visitorName}. Ask me anything about alx.codes.`,
+              "bot"
+            );
+          }, 300);
+
+          return;
+        }
+
+        addMessage("Thinking...", "bot");
+        const thinkingBubble = messages.lastElementChild;
+
+        try {
+          const response = await fetch("/api/chat", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              name: visitorName,
+              message: value,
+            }),
+          });
+
+          const data = await response.json();
+
+          thinkingBubble.textContent =
+            data.reply || "I could not generate a response.";
+        } catch (error) {
+          console.error(error);
+          thinkingBubble.textContent =
+            "I could not connect to the AI assistant right now.";
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
+
+--- FILE: main.js ---
+// Migrated from about.html script
+(function () {
+  // Cursor glow
+  const glow = document.getElementById('cursor-glow');
+  if (glow) {
+    window.addEventListener('mousemove', e => {
+      glow.style.left = e.clientX + 'px';
+      glow.style.top  = e.clientY + 'px';
+    });
+  }
+
+  // Navbar scroll
+  const navbar = document.getElementById('navbar');
+  if (navbar) {
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+  }
+
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  if (reveals.length) {
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add('visible');
+      });
+    }, { threshold: 0.12 });
+    reveals.forEach(el => io.observe(el));
+  }
+})();
+
+
+
+--- FILE: package.json ---
+{
+  "name": "theportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.2.0"
+  }
+}
+
+
+--- FILE: package-lock.json ---
+{
+  "name": "theportfolio",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "theportfolio",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "cors": "^2.8.6",
+        "dotenv": "^17.4.2",
+        "express": "^5.2.1",
+        "groq-sdk": "^1.2.0"
+      },
+      "devDependencies": {
+        "autoprefixer": "^10.4.21",
+        "postcss": "^8.5.4",
+        "tailwindcss": "^3.4.17"
+      }
+    },
+    "node_modules/@alloc/quick-lru": {
+      "version": "5.2.0",
+      "resolved": "https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.2.0.tgz",
+      "integrity": "sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=10"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/sindresorhus"
+      }
+    },
+    "node_modules/@jridgewell/gen-mapping": {
+      "version": "0.3.13",
+      "resolved": "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz",
+      "integrity": "sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "@jridgewell/sourcemap-codec": "^1.5.0",
+        "@jridgewell/trace-mapping": "^0.3.24"
+      }
+    },
+    "node_modules/@jridgewell/resolve-uri": {
+      "version": "3.1.2",
+      "resolved": "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz",
+      "integrity": "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=6.0.0"
+      }
+    },
+    "node_modules/@jridgewell/sourcemap-codec": {
+      "version": "1.5.5",
+      "resolved": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz",
+      "integrity": "sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/@jridgewell/trace-mapping": {
+      "version": "0.3.31",
+      "resolved": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz",
+      "integrity": "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "@jridgewell/resolve-uri": "^3.1.0",
+        "@jridgewell/sourcemap-codec": "^1.4.14"
+      }
+    },
+    "node_modules/@nodelib/fs.scandir": {
+      "version": "2.1.5",
+      "resolved": "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz",
+      "integrity": "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "@nodelib/fs.stat": "2.0.5",
+        "run-parallel": "^1.1.9"
+      },
+      "engines": {
+        "node": ">= 8"
+      }
+    },
+    "node_modules/@nodelib/fs.stat": {
+      "version": "2.0.5",
+      "resolved": "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz",
+      "integrity": "sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">= 8"
+      }
+    },
+    "node_modules/@nodelib/fs.walk": {
+      "version": "1.2.8",
+      "resolved": "https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz",
+      "integrity": "sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "@nodelib/fs.scandir": "2.1.5",
+        "fastq": "^1.6.0"
+      },
+      "engines": {
+        "node": ">= 8"
+      }
+    },
+    "node_modules/accepts": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/accepts/-/accepts-2.0.0.tgz",
+      "integrity": "sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5bImjNKng==",
+      "license": "MIT",
+      "dependencies": {
+        "mime-types": "^3.0.0",
+        "negotiator": "^1.0.0"
+      },
+      "engines": {
+        "node": ">= 0.6"
+      }
+    },
+    "node_modules/any-promise": {
+      "version": "1.3.0",
+      "resolved": "https://registry.npmjs.org/any-promise/-/any-promise-1.3.0.tgz",
+      "integrity": "sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/anymatch": {
+      "version": "3.1.3",
+      "resolved": "https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz",
+      "integrity": "sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==",
+      "dev": true,
+      "license": "ISC",
+      "dependencies": {
+        "normalize-path": "^3.0.0",
+        "picomatch": "^2.0.4"
+      },
+      "engines": {
+        "node": ">= 8"
+      }
+    },
+    "node_modules/anymatch/node_modules/picomatch": {
+      "version": "2.3.2",
+      "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz",
+      "integrity": "sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=8.6"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/jonschlinkert"
+      }
+    },
+    "node_modules/arg": {
+      "version": "5.0.2",
+      "resolved": "https://registry.npmjs.org/arg/-/arg-5.0.2.tgz",
+      "integrity": "sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/autoprefixer": {
+      "version": "10.5.0",
+      "resolved": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.5.0.tgz",
+      "integrity": "sha512-FMhOoZV4+qR6aTUALKX2rEqGG+oyATvwBt9IIzVR5rMa2HRWPkxf+P+PAJLD1I/H5/II+HuZcBJYEFBpq39ong==",
+      "dev": true,
+      "funding": [
+        {
+          "type": "opencollective",
+          "url": "https://opencollective.com/postcss/"
+        },
+        {
+          "type": "tidelift",
+          "url": "https://tidelift.com/funding/github/npm/autoprefixer"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/ai"
+        }
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "browserslist": "^4.28.2",
+        "caniuse-lite": "^1.0.30001787",
+        "fraction.js": "^5.3.4",
+        "picocolors": "^1.1.1",
+        "postcss-value-parser": "^4.2.0"
+      },
+      "bin": {
+        "autoprefixer": "bin/autoprefixer"
+      },
+      "engines": {
+        "node": "^10 || ^12 || >=14"
+      },
+      "peerDependencies": {
+        "postcss": "^8.1.0"
+      }
+    },
+    "node_modules/baseline-browser-mapping": {
+      "version": "2.10.27",
+      "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.27.tgz",
+      "integrity": "sha512-zEs/ufmZoUd7WftKpKyXaT6RFxpQ5Qm9xytKRHvJfxFV9DFJkZph9RvJ1LcOUi0Z1ZVijMte65JbILeV+8QQEA==",
+      "dev": true,
+      "license": "Apache-2.0",
+      "bin": {
+        "baseline-browser-mapping": "dist/cli.cjs"
+      },
+      "engines": {
+        "node": ">=6.0.0"
+      }
+    },
+    "node_modules/binary-extensions": {
+      "version": "2.3.0",
+      "resolved": "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz",
+      "integrity": "sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=8"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/sindresorhus"
+      }
+    },
+    "node_modules/body-parser": {
+      "version": "2.2.2",
+      "resolved": "https://registry.npmjs.org/body-parser/-/body-parser-2.2.2.tgz",
+      "integrity": "sha512-oP5VkATKlNwcgvxi0vM0p/D3n2C3EReYVX+DNYs5TjZFn/oQt2j+4sVJtSMr18pdRr8wjTcBl6LoV+FUwzPmNA==",
+      "license": "MIT",
+      "dependencies": {
+        "bytes": "^3.1.2",
+        "content-type": "^1.0.5",
+        "debug": "^4.4.3",
+        "http-errors": "^2.0.0",
+        "iconv-lite": "^0.7.0",
+        "on-finished": "^2.4.1",
+        "qs": "^6.14.1",
+        "raw-body": "^3.0.1",
+        "type-is": "^2.0.1"
+      },
+      "engines": {
+        "node": ">=18"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/braces": {
+      "version": "3.0.3",
+      "resolved": "https://registry.npmjs.org/braces/-/braces-3.0.3.tgz",
+      "integrity": "sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "fill-range": "^7.1.1"
+      },
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/browserslist": {
+      "version": "4.28.2",
+      "resolved": "https://registry.npmjs.org/browserslist/-/browserslist-4.28.2.tgz",
+      "integrity": "sha512-48xSriZYYg+8qXna9kwqjIVzuQxi+KYWp2+5nCYnYKPTr0LvD89Jqk2Or5ogxz0NUMfIjhh2lIUX/LyX9B4oIg==",
+      "dev": true,
+      "funding": [
+        {
+          "type": "opencollective",
+          "url": "https://opencollective.com/browserslist"
+        },
+        {
+          "type": "tidelift",
+          "url": "https://tidelift.com/funding/github/npm/browserslist"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/ai"
+        }
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "baseline-browser-mapping": "^2.10.12",
+        "caniuse-lite": "^1.0.30001782",
+        "electron-to-chromium": "^1.5.328",
+        "node-releases": "^2.0.36",
+        "update-browserslist-db": "^1.2.3"
+      },
+      "bin": {
+        "browserslist": "cli.js"
+      },
+      "engines": {
+        "node": "^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7"
+      }
+    },
+    "node_modules/bytes": {
+      "version": "3.1.2",
+      "resolved": "https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz",
+      "integrity": "sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.8"
+      }
+    },
+    "node_modules/call-bind-apply-helpers": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz",
+      "integrity": "sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==",
+      "license": "MIT",
+      "dependencies": {
+        "es-errors": "^1.3.0",
+        "function-bind": "^1.1.2"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      }
+    },
+    "node_modules/call-bound": {
+      "version": "1.0.4",
+      "resolved": "https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz",
+      "integrity": "sha512-+ys997U96po4Kx/ABpBCqhA9EuxJaQWDQg7295H4hBphv3IZg0boBKuwYpt4YXp6MZ5AmZQnU/tyMTlRpaSejg==",
+      "license": "MIT",
+      "dependencies": {
+        "call-bind-apply-helpers": "^1.0.2",
+        "get-intrinsic": "^1.3.0"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/camelcase-css": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/camelcase-css/-/camelcase-css-2.0.1.tgz",
+      "integrity": "sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">= 6"
+      }
+    },
+    "node_modules/caniuse-lite": {
+      "version": "1.0.30001792",
+      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001792.tgz",
+      "integrity": "sha512-hVLMUZFgR4JJ6ACt1uEESvQN1/dBVqPAKY0hgrV70eN3391K6juAfTjKZLKvOMsx8PxA7gsY1/tLMMTcfFLLpw==",
+      "dev": true,
+      "funding": [
+        {
+          "type": "opencollective",
+          "url": "https://opencollective.com/browserslist"
+        },
+        {
+          "type": "tidelift",
+          "url": "https://tidelift.com/funding/github/npm/caniuse-lite"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/ai"
+        }
+      ],
+      "license": "CC-BY-4.0"
+    },
+    "node_modules/chokidar": {
+      "version": "3.6.0",
+      "resolved": "https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz",
+      "integrity": "sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "anymatch": "~3.1.2",
+        "braces": "~3.0.2",
+        "glob-parent": "~5.1.2",
+        "is-binary-path": "~2.1.0",
+        "is-glob": "~4.0.1",
+        "normalize-path": "~3.0.0",
+        "readdirp": "~3.6.0"
+      },
+      "engines": {
+        "node": ">= 8.10.0"
+      },
+      "funding": {
+        "url": "https://paulmillr.com/funding/"
+      },
+      "optionalDependencies": {
+        "fsevents": "~2.3.2"
+      }
+    },
+    "node_modules/chokidar/node_modules/glob-parent": {
+      "version": "5.1.2",
+      "resolved": "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz",
+      "integrity": "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==",
+      "dev": true,
+      "license": "ISC",
+      "dependencies": {
+        "is-glob": "^4.0.1"
+      },
+      "engines": {
+        "node": ">= 6"
+      }
+    },
+    "node_modules/commander": {
+      "version": "4.1.1",
+      "resolved": "https://registry.npmjs.org/commander/-/commander-4.1.1.tgz",
+      "integrity": "sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">= 6"
+      }
+    },
+    "node_modules/content-disposition": {
+      "version": "1.1.0",
+      "resolved": "https://registry.npmjs.org/content-disposition/-/content-disposition-1.1.0.tgz",
+      "integrity": "sha512-5jRCH9Z/+DRP7rkvY83B+yGIGX96OYdJmzngqnw2SBSxqCFPd0w2km3s5iawpGX8krnwSGmF0FW5Nhr0Hfai3g==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=18"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/content-type": {
+      "version": "1.0.5",
+      "resolved": "https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz",
+      "integrity": "sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.6"
+      }
+    },
+    "node_modules/cookie": {
+      "version": "0.7.2",
+      "resolved": "https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz",
+      "integrity": "sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.6"
+      }
+    },
+    "node_modules/cookie-signature": {
+      "version": "1.2.2",
+      "resolved": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.2.2.tgz",
+      "integrity": "sha512-D76uU73ulSXrD1UXF4KE2TMxVVwhsnCgfAyTg9k8P6KGZjlXKrOLe4dJQKI3Bxi5wjesZoFXJWElNWBjPZMbhg==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=6.6.0"
+      }
+    },
+    "node_modules/cors": {
+      "version": "2.8.6",
+      "resolved": "https://registry.npmjs.org/cors/-/cors-2.8.6.tgz",
+      "integrity": "sha512-tJtZBBHA6vjIAaF6EnIaq6laBBP9aq/Y3ouVJjEfoHbRBcHBAHYcMh/w8LDrk2PvIMMq8gmopa5D4V8RmbrxGw==",
+      "license": "MIT",
+      "dependencies": {
+        "object-assign": "^4",
+        "vary": "^1"
+      },
+      "engines": {
+        "node": ">= 0.10"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/cssesc": {
+      "version": "3.0.0",
+      "resolved": "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz",
+      "integrity": "sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==",
+      "dev": true,
+      "license": "MIT",
+      "bin": {
+        "cssesc": "bin/cssesc"
+      },
+      "engines": {
+        "node": ">=4"
+      }
+    },
+    "node_modules/debug": {
+      "version": "4.4.3",
+      "resolved": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz",
+      "integrity": "sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==",
+      "license": "MIT",
+      "dependencies": {
+        "ms": "^2.1.3"
+      },
+      "engines": {
+        "node": ">=6.0"
+      },
+      "peerDependenciesMeta": {
+        "supports-color": {
+          "optional": true
+        }
+      }
+    },
+    "node_modules/depd": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz",
+      "integrity": "sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.8"
+      }
+    },
+    "node_modules/didyoumean": {
+      "version": "1.2.2",
+      "resolved": "https://registry.npmjs.org/didyoumean/-/didyoumean-1.2.2.tgz",
+      "integrity": "sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==",
+      "dev": true,
+      "license": "Apache-2.0"
+    },
+    "node_modules/dlv": {
+      "version": "1.1.3",
+      "resolved": "https://registry.npmjs.org/dlv/-/dlv-1.1.3.tgz",
+      "integrity": "sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/dotenv": {
+      "version": "17.4.2",
+      "resolved": "https://registry.npmjs.org/dotenv/-/dotenv-17.4.2.tgz",
+      "integrity": "sha512-nI4U3TottKAcAD9LLud4Cb7b2QztQMUEfHbvhTH09bqXTxnSie8WnjPALV/WMCrJZ6UV/qHJ6L03OqO3LcdYZw==",
+      "license": "BSD-2-Clause",
+      "engines": {
+        "node": ">=12"
+      },
+      "funding": {
+        "url": "https://dotenvx.com"
+      }
+    },
+    "node_modules/dunder-proto": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz",
+      "integrity": "sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==",
+      "license": "MIT",
+      "dependencies": {
+        "call-bind-apply-helpers": "^1.0.1",
+        "es-errors": "^1.3.0",
+        "gopd": "^1.2.0"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      }
+    },
+    "node_modules/ee-first": {
+      "version": "1.1.1",
+      "resolved": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz",
+      "integrity": "sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==",
+      "license": "MIT"
+    },
+    "node_modules/electron-to-chromium": {
+      "version": "1.5.352",
+      "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.352.tgz",
+      "integrity": "sha512-9wHk8x6dyuimoe18EdiDPWKExNdxYqo4fn4FwOVVper6RxT3cmpBwBkWWfSOCYJjQdIco/nPhJhNLmn4Ufg1Yg==",
+      "dev": true,
+      "license": "ISC"
+    },
+    "node_modules/encodeurl": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.0.tgz",
+      "integrity": "sha512-Q0n9HRi4m6JuGIV1eFlmvJB7ZEVxu93IrMyiMsGC0lrMJMWzRgx6WGquyfQgZVb31vhGgXnfmPNNXmxnOkRBrg==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.8"
+      }
+    },
+    "node_modules/es-define-property": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz",
+      "integrity": "sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVYNrCaW3g==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.4"
+      }
+    },
+    "node_modules/es-errors": {
+      "version": "1.3.0",
+      "resolved": "https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz",
+      "integrity": "sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.4"
+      }
+    },
+    "node_modules/es-object-atoms": {
+      "version": "1.1.2",
+      "resolved": "https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.2.tgz",
+      "integrity": "sha512-HWcBoN6NileqtSydK2FqHbS/LoDd2pqrnQHLyJzBj4kOp/ky2MWMN694xOfkK8/SnUsW2DH7EfyVlydKCsm1Zw==",
+      "license": "MIT",
+      "dependencies": {
+        "es-errors": "^1.3.0"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      }
+    },
+    "node_modules/escalade": {
+      "version": "3.2.0",
+      "resolved": "https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz",
+      "integrity": "sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=6"
+      }
+    },
+    "node_modules/escape-html": {
+      "version": "1.0.3",
+      "resolved": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz",
+      "integrity": "sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==",
+      "license": "MIT"
+    },
+    "node_modules/etag": {
+      "version": "1.8.1",
+      "resolved": "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz",
+      "integrity": "sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.6"
+      }
+    },
+    "node_modules/express": {
+      "version": "5.2.1",
+      "resolved": "https://registry.npmjs.org/express/-/express-5.2.1.tgz",
+      "integrity": "sha512-hIS4idWWai69NezIdRt2xFVofaF4j+6INOpJlVOLDO8zXGpUVEVzIYk12UUi2JzjEzWL3IOAxcTubgz9Po0yXw==",
+      "license": "MIT",
+      "dependencies": {
+        "accepts": "^2.0.0",
+        "body-parser": "^2.2.1",
+        "content-disposition": "^1.0.0",
+        "content-type": "^1.0.5",
+        "cookie": "^0.7.1",
+        "cookie-signature": "^1.2.1",
+        "debug": "^4.4.0",
+        "depd": "^2.0.0",
+        "encodeurl": "^2.0.0",
+        "escape-html": "^1.0.3",
+        "etag": "^1.8.1",
+        "finalhandler": "^2.1.0",
+        "fresh": "^2.0.0",
+        "http-errors": "^2.0.0",
+        "merge-descriptors": "^2.0.0",
+        "mime-types": "^3.0.0",
+        "on-finished": "^2.4.1",
+        "once": "^1.4.0",
+        "parseurl": "^1.3.3",
+        "proxy-addr": "^2.0.7",
+        "qs": "^6.14.0",
+        "range-parser": "^1.2.1",
+        "router": "^2.2.0",
+        "send": "^1.1.0",
+        "serve-static": "^2.2.0",
+        "statuses": "^2.0.1",
+        "type-is": "^2.0.1",
+        "vary": "^1.1.2"
+      },
+      "engines": {
+        "node": ">= 18"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/fast-glob": {
+      "version": "3.3.3",
+      "resolved": "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz",
+      "integrity": "sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "@nodelib/fs.stat": "^2.0.2",
+        "@nodelib/fs.walk": "^1.2.3",
+        "glob-parent": "^5.1.2",
+        "merge2": "^1.3.0",
+        "micromatch": "^4.0.8"
+      },
+      "engines": {
+        "node": ">=8.6.0"
+      }
+    },
+    "node_modules/fast-glob/node_modules/glob-parent": {
+      "version": "5.1.2",
+      "resolved": "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz",
+      "integrity": "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==",
+      "dev": true,
+      "license": "ISC",
+      "dependencies": {
+        "is-glob": "^4.0.1"
+      },
+      "engines": {
+        "node": ">= 6"
+      }
+    },
+    "node_modules/fastq": {
+      "version": "1.20.1",
+      "resolved": "https://registry.npmjs.org/fastq/-/fastq-1.20.1.tgz",
+      "integrity": "sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==",
+      "dev": true,
+      "license": "ISC",
+      "dependencies": {
+        "reusify": "^1.0.4"
+      }
+    },
+    "node_modules/fdir": {
+      "version": "6.5.0",
+      "resolved": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+      "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=12.0.0"
+      },
+      "peerDependencies": {
+        "picomatch": "^3 || ^4"
+      },
+      "peerDependenciesMeta": {
+        "picomatch": {
+          "optional": true
+        }
+      }
+    },
+    "node_modules/fill-range": {
+      "version": "7.1.1",
+      "resolved": "https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz",
+      "integrity": "sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "to-regex-range": "^5.0.1"
+      },
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/finalhandler": {
+      "version": "2.1.1",
+      "resolved": "https://registry.npmjs.org/finalhandler/-/finalhandler-2.1.1.tgz",
+      "integrity": "sha512-S8KoZgRZN+a5rNwqTxlZZePjT/4cnm0ROV70LedRHZ0p8u9fRID0hJUZQpkKLzro8LfmC8sx23bY6tVNxv8pQA==",
+      "license": "MIT",
+      "dependencies": {
+        "debug": "^4.4.0",
+        "encodeurl": "^2.0.0",
+        "escape-html": "^1.0.3",
+        "on-finished": "^2.4.1",
+        "parseurl": "^1.3.3",
+        "statuses": "^2.0.1"
+      },
+      "engines": {
+        "node": ">= 18.0.0"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/forwarded": {
+      "version": "0.2.0",
+      "resolved": "https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz",
+      "integrity": "sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.6"
+      }
+    },
+    "node_modules/fraction.js": {
+      "version": "5.3.4",
+      "resolved": "https://registry.npmjs.org/fraction.js/-/fraction.js-5.3.4.tgz",
+      "integrity": "sha512-1X1NTtiJphryn/uLQz3whtY6jK3fTqoE3ohKs0tT+Ujr1W59oopxmoEh7Lu5p6vBaPbgoM0bzveAW4Qi5RyWDQ==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": "*"
+      },
+      "funding": {
+        "type": "github",
+        "url": "https://github.com/sponsors/rawify"
+      }
+    },
+    "node_modules/fresh": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/fresh/-/fresh-2.0.0.tgz",
+      "integrity": "sha512-Rx/WycZ60HOaqLKAi6cHRKKI7zxWbJ31MhntmtwMoaTeF7XFH9hhBp8vITaMidfljRQ6eYWCKkaTK+ykVJHP2A==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.8"
+      }
+    },
+    "node_modules/fsevents": {
+      "version": "2.3.3",
+      "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+      "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
+      "dev": true,
+      "hasInstallScript": true,
+      "license": "MIT",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "engines": {
+        "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
+      }
+    },
+    "node_modules/function-bind": {
+      "version": "1.1.2",
+      "resolved": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz",
+      "integrity": "sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==",
+      "license": "MIT",
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/get-intrinsic": {
+      "version": "1.3.0",
+      "resolved": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz",
+      "integrity": "sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==",
+      "license": "MIT",
+      "dependencies": {
+        "call-bind-apply-helpers": "^1.0.2",
+        "es-define-property": "^1.0.1",
+        "es-errors": "^1.3.0",
+        "es-object-atoms": "^1.1.1",
+        "function-bind": "^1.1.2",
+        "get-proto": "^1.0.1",
+        "gopd": "^1.2.0",
+        "has-symbols": "^1.1.0",
+        "hasown": "^2.0.2",
+        "math-intrinsics": "^1.1.0"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/get-proto": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz",
+      "integrity": "sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKHfxFmp0g==",
+      "license": "MIT",
+      "dependencies": {
+        "dunder-proto": "^1.0.1",
+        "es-object-atoms": "^1.0.0"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      }
+    },
+    "node_modules/glob-parent": {
+      "version": "6.0.2",
+      "resolved": "https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.2.tgz",
+      "integrity": "sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==",
+      "dev": true,
+      "license": "ISC",
+      "dependencies": {
+        "is-glob": "^4.0.3"
+      },
+      "engines": {
+        "node": ">=10.13.0"
+      }
+    },
+    "node_modules/gopd": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz",
+      "integrity": "sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/groq-sdk": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/groq-sdk/-/groq-sdk-1.2.0.tgz",
+      "integrity": "sha512-pMhSYXWcjiqvbOeKdv2zjci1BYjGdp04a40hnmQmJpKJyB6oa+gRndAqE128gwR0NLgYO+Wt1fIF46KNHcplsw==",
+      "license": "Apache-2.0",
+      "bin": {
+        "groq-sdk": "bin/cli"
+      }
+    },
+    "node_modules/has-symbols": {
+      "version": "1.1.0",
+      "resolved": "https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz",
+      "integrity": "sha512-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h+eb1X6RyuOHe4hT0ULCW68iomhjUoKUqlPQ==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/hasown": {
+      "version": "2.0.3",
+      "resolved": "https://registry.npmjs.org/hasown/-/hasown-2.0.3.tgz",
+      "integrity": "sha512-ej4AhfhfL2Q2zpMmLo7U1Uv9+PyhIZpgQLGT1F9miIGmiCJIoCgSmczFdrc97mWT4kVY72KA+WnnhJ5pghSvSg==",
+      "license": "MIT",
+      "dependencies": {
+        "function-bind": "^1.1.2"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      }
+    },
+    "node_modules/http-errors": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/http-errors/-/http-errors-2.0.1.tgz",
+      "integrity": "sha512-4FbRdAX+bSdmo4AUFuS0WNiPz8NgFt+r8ThgNWmlrjQjt1Q7ZR9+zTlce2859x4KSXrwIsaeTqDoKQmtP8pLmQ==",
+      "license": "MIT",
+      "dependencies": {
+        "depd": "~2.0.0",
+        "inherits": "~2.0.4",
+        "setprototypeof": "~1.2.0",
+        "statuses": "~2.0.2",
+        "toidentifier": "~1.0.1"
+      },
+      "engines": {
+        "node": ">= 0.8"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/iconv-lite": {
+      "version": "0.7.2",
+      "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.7.2.tgz",
+      "integrity": "sha512-im9DjEDQ55s9fL4EYzOAv0yMqmMBSZp6G0VvFyTMPKWxiSBHUj9NW/qqLmXUwXrrM7AvqSlTCfvqRb0cM8yYqw==",
+      "license": "MIT",
+      "dependencies": {
+        "safer-buffer": ">= 2.1.2 < 3.0.0"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/inherits": {
+      "version": "2.0.4",
+      "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz",
+      "integrity": "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==",
+      "license": "ISC"
+    },
+    "node_modules/ipaddr.js": {
+      "version": "1.9.1",
+      "resolved": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz",
+      "integrity": "sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.10"
+      }
+    },
+    "node_modules/is-binary-path": {
+      "version": "2.1.0",
+      "resolved": "https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz",
+      "integrity": "sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "binary-extensions": "^2.0.0"
+      },
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/is-core-module": {
+      "version": "2.16.2",
+      "resolved": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.2.tgz",
+      "integrity": "sha512-evOr8xfXKxE6qSR0hSXL2r3sd7ALj8+7jQEUvPYcm5sgZFdJ+AYzT6yNmJenvIYQBgIGwfwz08sL8zoL7yq2BA==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "hasown": "^2.0.3"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/is-extglob": {
+      "version": "2.1.1",
+      "resolved": "https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz",
+      "integrity": "sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/is-glob": {
+      "version": "4.0.3",
+      "resolved": "https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz",
+      "integrity": "sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "is-extglob": "^2.1.1"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/is-number": {
+      "version": "7.0.0",
+      "resolved": "https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz",
+      "integrity": "sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=0.12.0"
+      }
+    },
+    "node_modules/is-promise": {
+      "version": "4.0.0",
+      "resolved": "https://registry.npmjs.org/is-promise/-/is-promise-4.0.0.tgz",
+      "integrity": "sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3WlyH3AQ==",
+      "license": "MIT"
+    },
+    "node_modules/jiti": {
+      "version": "1.21.7",
+      "resolved": "https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz",
+      "integrity": "sha512-/imKNG4EbWNrVjoNC/1H5/9GFy+tqjGBHCaSsN+P2RnPqjsLmv6UD3Ej+Kj8nBWaRAwyk7kK5ZUc+OEatnTR3A==",
+      "dev": true,
+      "license": "MIT",
+      "bin": {
+        "jiti": "bin/jiti.js"
+      }
+    },
+    "node_modules/lilconfig": {
+      "version": "3.1.3",
+      "resolved": "https://registry.npmjs.org/lilconfig/-/lilconfig-3.1.3.tgz",
+      "integrity": "sha512-/vlFKAoH5Cgt3Ie+JLhRbwOsCQePABiU3tJ1egGvyQ+33R/vcwM2Zl2QR/LzjsBeItPt3oSVXapn+m4nQDvpzw==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=14"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/antonk52"
+      }
+    },
+    "node_modules/lines-and-columns": {
+      "version": "1.2.4",
+      "resolved": "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz",
+      "integrity": "sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/math-intrinsics": {
+      "version": "1.1.0",
+      "resolved": "https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz",
+      "integrity": "sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.4"
+      }
+    },
+    "node_modules/media-typer": {
+      "version": "1.1.0",
+      "resolved": "https://registry.npmjs.org/media-typer/-/media-typer-1.1.0.tgz",
+      "integrity": "sha512-aisnrDP4GNe06UcKFnV5bfMNPBUw4jsLGaWwWfnH3v02GnBuXX2MCVn5RbrWo0j3pczUilYblq7fQ7Nw2t5XKw==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.8"
+      }
+    },
+    "node_modules/merge-descriptors": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-2.0.0.tgz",
+      "integrity": "sha512-Snk314V5ayFLhp3fkUREub6WtjBfPdCPY1Ln8/8munuLuiYhsABgBVWsozAG+MWMbVEvcdcpbi9R7ww22l9Q3g==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=18"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/sindresorhus"
+      }
+    },
+    "node_modules/merge2": {
+      "version": "1.4.1",
+      "resolved": "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz",
+      "integrity": "sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">= 8"
+      }
+    },
+    "node_modules/micromatch": {
+      "version": "4.0.8",
+      "resolved": "https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz",
+      "integrity": "sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "braces": "^3.0.3",
+        "picomatch": "^2.3.1"
+      },
+      "engines": {
+        "node": ">=8.6"
+      }
+    },
+    "node_modules/micromatch/node_modules/picomatch": {
+      "version": "2.3.2",
+      "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz",
+      "integrity": "sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=8.6"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/jonschlinkert"
+      }
+    },
+    "node_modules/mime-db": {
+      "version": "1.54.0",
+      "resolved": "https://registry.npmjs.org/mime-db/-/mime-db-1.54.0.tgz",
+      "integrity": "sha512-aU5EJuIN2WDemCcAp2vFBfp/m4EAhWJnUNSSw0ixs7/kXbd6Pg64EmwJkNdFhB8aWt1sH2CTXrLxo/iAGV3oPQ==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.6"
+      }
+    },
+    "node_modules/mime-types": {
+      "version": "3.0.2",
+      "resolved": "https://registry.npmjs.org/mime-types/-/mime-types-3.0.2.tgz",
+      "integrity": "sha512-Lbgzdk0h4juoQ9fCKXW4by0UJqj+nOOrI9MJ1sSj4nI8aI2eo1qmvQEie4VD1glsS250n15LsWsYtCugiStS5A==",
+      "license": "MIT",
+      "dependencies": {
+        "mime-db": "^1.54.0"
+      },
+      "engines": {
+        "node": ">=18"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/ms": {
+      "version": "2.1.3",
+      "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+      "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",
+      "license": "MIT"
+    },
+    "node_modules/mz": {
+      "version": "2.7.0",
+      "resolved": "https://registry.npmjs.org/mz/-/mz-2.7.0.tgz",
+      "integrity": "sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "any-promise": "^1.0.0",
+        "object-assign": "^4.0.1",
+        "thenify-all": "^1.0.0"
+      }
+    },
+    "node_modules/nanoid": {
+      "version": "3.3.12",
+      "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz",
+      "integrity": "sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==",
+      "dev": true,
+      "funding": [
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/ai"
+        }
+      ],
+      "license": "MIT",
+      "bin": {
+        "nanoid": "bin/nanoid.cjs"
+      },
+      "engines": {
+        "node": "^10 || ^12 || ^13.7 || ^14 || >=15.0.1"
+      }
+    },
+    "node_modules/negotiator": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/negotiator/-/negotiator-1.0.0.tgz",
+      "integrity": "sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.6"
+      }
+    },
+    "node_modules/node-releases": {
+      "version": "2.0.38",
+      "resolved": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.38.tgz",
+      "integrity": "sha512-3qT/88Y3FbH/Kx4szpQQ4HzUbVrHPKTLVpVocKiLfoYvw9XSGOX2FmD2d6DrXbVYyAQTF2HeF6My8jmzx7/CRw==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/normalize-path": {
+      "version": "3.0.0",
+      "resolved": "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz",
+      "integrity": "sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/object-assign": {
+      "version": "4.1.1",
+      "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz",
+      "integrity": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/object-hash": {
+      "version": "3.0.0",
+      "resolved": "https://registry.npmjs.org/object-hash/-/object-hash-3.0.0.tgz",
+      "integrity": "sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">= 6"
+      }
+    },
+    "node_modules/object-inspect": {
+      "version": "1.13.4",
+      "resolved": "https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz",
+      "integrity": "sha512-W67iLl4J2EXEGTbfeHCffrjDfitvLANg0UlX3wFUUSTx92KXRFegMHUVgSqE+wvhAbi4WqjGg9czysTV2Epbew==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/on-finished": {
+      "version": "2.4.1",
+      "resolved": "https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz",
+      "integrity": "sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg==",
+      "license": "MIT",
+      "dependencies": {
+        "ee-first": "1.1.1"
+      },
+      "engines": {
+        "node": ">= 0.8"
+      }
+    },
+    "node_modules/once": {
+      "version": "1.4.0",
+      "resolved": "https://registry.npmjs.org/once/-/once-1.4.0.tgz",
+      "integrity": "sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==",
+      "license": "ISC",
+      "dependencies": {
+        "wrappy": "1"
+      }
+    },
+    "node_modules/parseurl": {
+      "version": "1.3.3",
+      "resolved": "https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz",
+      "integrity": "sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.8"
+      }
+    },
+    "node_modules/path-parse": {
+      "version": "1.0.7",
+      "resolved": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz",
+      "integrity": "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/path-to-regexp": {
+      "version": "8.4.2",
+      "resolved": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-8.4.2.tgz",
+      "integrity": "sha512-qRcuIdP69NPm4qbACK+aDogI5CBDMi1jKe0ry5rSQJz8JVLsC7jV8XpiJjGRLLol3N+R5ihGYcrPLTno6pAdBA==",
+      "license": "MIT",
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/picocolors": {
+      "version": "1.1.1",
+      "resolved": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+      "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+      "dev": true,
+      "license": "ISC"
+    },
+    "node_modules/picomatch": {
+      "version": "4.0.4",
+      "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz",
+      "integrity": "sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=12"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/jonschlinkert"
+      }
+    },
+    "node_modules/pify": {
+      "version": "2.3.0",
+      "resolved": "https://registry.npmjs.org/pify/-/pify-2.3.0.tgz",
+      "integrity": "sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/pirates": {
+      "version": "4.0.7",
+      "resolved": "https://registry.npmjs.org/pirates/-/pirates-4.0.7.tgz",
+      "integrity": "sha512-TfySrs/5nm8fQJDcBDuUng3VOUKsd7S+zqvbOTiGXHfxX4wK31ard+hoNuvkicM/2YFzlpDgABOevKSsB4G/FA==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">= 6"
+      }
+    },
+    "node_modules/postcss": {
+      "version": "8.5.14",
+      "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.5.14.tgz",
+      "integrity": "sha512-SoSL4+OSEtR99LHFZQiJLkT59C5B1amGO1NzTwj7TT1qCUgUO6hxOvzkOYxD+vMrXBM3XJIKzokoERdqQq/Zmg==",
+      "dev": true,
+      "funding": [
+        {
+          "type": "opencollective",
+          "url": "https://opencollective.com/postcss/"
+        },
+        {
+          "type": "tidelift",
+          "url": "https://tidelift.com/funding/github/npm/postcss"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/ai"
+        }
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "nanoid": "^3.3.11",
+        "picocolors": "^1.1.1",
+        "source-map-js": "^1.2.1"
+      },
+      "engines": {
+        "node": "^10 || ^12 || >=14"
+      }
+    },
+    "node_modules/postcss-import": {
+      "version": "15.1.0",
+      "resolved": "https://registry.npmjs.org/postcss-import/-/postcss-import-15.1.0.tgz",
+      "integrity": "sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "postcss-value-parser": "^4.0.0",
+        "read-cache": "^1.0.0",
+        "resolve": "^1.1.7"
+      },
+      "engines": {
+        "node": ">=14.0.0"
+      },
+      "peerDependencies": {
+        "postcss": "^8.0.0"
+      }
+    },
+    "node_modules/postcss-js": {
+      "version": "4.1.0",
+      "resolved": "https://registry.npmjs.org/postcss-js/-/postcss-js-4.1.0.tgz",
+      "integrity": "sha512-oIAOTqgIo7q2EOwbhb8UalYePMvYoIeRY2YKntdpFQXNosSu3vLrniGgmH9OKs/qAkfoj5oB3le/7mINW1LCfw==",
+      "dev": true,
+      "funding": [
+        {
+          "type": "opencollective",
+          "url": "https://opencollective.com/postcss/"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/ai"
+        }
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "camelcase-css": "^2.0.1"
+      },
+      "engines": {
+        "node": "^12 || ^14 || >= 16"
+      },
+      "peerDependencies": {
+        "postcss": "^8.4.21"
+      }
+    },
+    "node_modules/postcss-load-config": {
+      "version": "6.0.1",
+      "resolved": "https://registry.npmjs.org/postcss-load-config/-/postcss-load-config-6.0.1.tgz",
+      "integrity": "sha512-oPtTM4oerL+UXmx+93ytZVN82RrlY/wPUV8IeDxFrzIjXOLF1pN+EmKPLbubvKHT2HC20xXsCAH2Z+CKV6Oz/g==",
+      "dev": true,
+      "funding": [
+        {
+          "type": "opencollective",
+          "url": "https://opencollective.com/postcss/"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/ai"
+        }
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "lilconfig": "^3.1.1"
+      },
+      "engines": {
+        "node": ">= 18"
+      },
+      "peerDependencies": {
+        "jiti": ">=1.21.0",
+        "postcss": ">=8.0.9",
+        "tsx": "^4.8.1",
+        "yaml": "^2.4.2"
+      },
+      "peerDependenciesMeta": {
+        "jiti": {
+          "optional": true
+        },
+        "postcss": {
+          "optional": true
+        },
+        "tsx": {
+          "optional": true
+        },
+        "yaml": {
+          "optional": true
+        }
+      }
+    },
+    "node_modules/postcss-nested": {
+      "version": "6.2.0",
+      "resolved": "https://registry.npmjs.org/postcss-nested/-/postcss-nested-6.2.0.tgz",
+      "integrity": "sha512-HQbt28KulC5AJzG+cZtj9kvKB93CFCdLvog1WFLf1D+xmMvPGlBstkpTEZfK5+AN9hfJocyBFCNiqyS48bpgzQ==",
+      "dev": true,
+      "funding": [
+        {
+          "type": "opencollective",
+          "url": "https://opencollective.com/postcss/"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/ai"
+        }
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "postcss-selector-parser": "^6.1.1"
+      },
+      "engines": {
+        "node": ">=12.0"
+      },
+      "peerDependencies": {
+        "postcss": "^8.2.14"
+      }
+    },
+    "node_modules/postcss-selector-parser": {
+      "version": "6.1.2",
+      "resolved": "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.1.2.tgz",
+      "integrity": "sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "cssesc": "^3.0.0",
+        "util-deprecate": "^1.0.2"
+      },
+      "engines": {
+        "node": ">=4"
+      }
+    },
+    "node_modules/postcss-value-parser": {
+      "version": "4.2.0",
+      "resolved": "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz",
+      "integrity": "sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/proxy-addr": {
+      "version": "2.0.7",
+      "resolved": "https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz",
+      "integrity": "sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==",
+      "license": "MIT",
+      "dependencies": {
+        "forwarded": "0.2.0",
+        "ipaddr.js": "1.9.1"
+      },
+      "engines": {
+        "node": ">= 0.10"
+      }
+    },
+    "node_modules/qs": {
+      "version": "6.15.2",
+      "resolved": "https://registry.npmjs.org/qs/-/qs-6.15.2.tgz",
+      "integrity": "sha512-Rzq0KEyX/w/tEybncDgdkZrJgVUsUMk3xjh3t5bv3S1HTAtg+uOYt72+ZfwiQwKdysThkTBdL/rTi6HDmX9Ddw==",
+      "license": "BSD-3-Clause",
+      "dependencies": {
+        "side-channel": "^1.1.0"
+      },
+      "engines": {
+        "node": ">=0.6"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/queue-microtask": {
+      "version": "1.2.3",
+      "resolved": "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz",
+      "integrity": "sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==",
+      "dev": true,
+      "funding": [
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/feross"
+        },
+        {
+          "type": "patreon",
+          "url": "https://www.patreon.com/feross"
+        },
+        {
+          "type": "consulting",
+          "url": "https://feross.org/support"
+        }
+      ],
+      "license": "MIT"
+    },
+    "node_modules/range-parser": {
+      "version": "1.2.1",
+      "resolved": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz",
+      "integrity": "sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.6"
+      }
+    },
+    "node_modules/raw-body": {
+      "version": "3.0.2",
+      "resolved": "https://registry.npmjs.org/raw-body/-/raw-body-3.0.2.tgz",
+      "integrity": "sha512-K5zQjDllxWkf7Z5xJdV0/B0WTNqx6vxG70zJE4N0kBs4LovmEYWJzQGxC9bS9RAKu3bgM40lrd5zoLJ12MQ5BA==",
+      "license": "MIT",
+      "dependencies": {
+        "bytes": "~3.1.2",
+        "http-errors": "~2.0.1",
+        "iconv-lite": "~0.7.0",
+        "unpipe": "~1.0.0"
+      },
+      "engines": {
+        "node": ">= 0.10"
+      }
+    },
+    "node_modules/read-cache": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/read-cache/-/read-cache-1.0.0.tgz",
+      "integrity": "sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "pify": "^2.3.0"
+      }
+    },
+    "node_modules/readdirp": {
+      "version": "3.6.0",
+      "resolved": "https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz",
+      "integrity": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "picomatch": "^2.2.1"
+      },
+      "engines": {
+        "node": ">=8.10.0"
+      }
+    },
+    "node_modules/readdirp/node_modules/picomatch": {
+      "version": "2.3.2",
+      "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz",
+      "integrity": "sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=8.6"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/jonschlinkert"
+      }
+    },
+    "node_modules/resolve": {
+      "version": "1.22.12",
+      "resolved": "https://registry.npmjs.org/resolve/-/resolve-1.22.12.tgz",
+      "integrity": "sha512-TyeJ1zif53BPfHootBGwPRYT1RUt6oGWsaQr8UyZW/eAm9bKoijtvruSDEmZHm92CwS9nj7/fWttqPCgzep8CA==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "es-errors": "^1.3.0",
+        "is-core-module": "^2.16.1",
+        "path-parse": "^1.0.7",
+        "supports-preserve-symlinks-flag": "^1.0.0"
+      },
+      "bin": {
+        "resolve": "bin/resolve"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/reusify": {
+      "version": "1.1.0",
+      "resolved": "https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz",
+      "integrity": "sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "iojs": ">=1.0.0",
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/router": {
+      "version": "2.2.0",
+      "resolved": "https://registry.npmjs.org/router/-/router-2.2.0.tgz",
+      "integrity": "sha512-nLTrUKm2UyiL7rlhapu/Zl45FwNgkZGaCpZbIHajDYgwlJCOzLSk+cIPAnsEqV955GjILJnKbdQC1nVPz+gAYQ==",
+      "license": "MIT",
+      "dependencies": {
+        "debug": "^4.4.0",
+        "depd": "^2.0.0",
+        "is-promise": "^4.0.0",
+        "parseurl": "^1.3.3",
+        "path-to-regexp": "^8.0.0"
+      },
+      "engines": {
+        "node": ">= 18"
+      }
+    },
+    "node_modules/run-parallel": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz",
+      "integrity": "sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==",
+      "dev": true,
+      "funding": [
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/feross"
+        },
+        {
+          "type": "patreon",
+          "url": "https://www.patreon.com/feross"
+        },
+        {
+          "type": "consulting",
+          "url": "https://feross.org/support"
+        }
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "queue-microtask": "^1.2.2"
+      }
+    },
+    "node_modules/safer-buffer": {
+      "version": "2.1.2",
+      "resolved": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
+      "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
+      "license": "MIT"
+    },
+    "node_modules/send": {
+      "version": "1.2.1",
+      "resolved": "https://registry.npmjs.org/send/-/send-1.2.1.tgz",
+      "integrity": "sha512-1gnZf7DFcoIcajTjTwjwuDjzuz4PPcY2StKPlsGAQ1+YH20IRVrBaXSWmdjowTJ6u8Rc01PoYOGHXfP1mYcZNQ==",
+      "license": "MIT",
+      "dependencies": {
+        "debug": "^4.4.3",
+        "encodeurl": "^2.0.0",
+        "escape-html": "^1.0.3",
+        "etag": "^1.8.1",
+        "fresh": "^2.0.0",
+        "http-errors": "^2.0.1",
+        "mime-types": "^3.0.2",
+        "ms": "^2.1.3",
+        "on-finished": "^2.4.1",
+        "range-parser": "^1.2.1",
+        "statuses": "^2.0.2"
+      },
+      "engines": {
+        "node": ">= 18"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/serve-static": {
+      "version": "2.2.1",
+      "resolved": "https://registry.npmjs.org/serve-static/-/serve-static-2.2.1.tgz",
+      "integrity": "sha512-xRXBn0pPqQTVQiC8wyQrKs2MOlX24zQ0POGaj0kultvoOCstBQM5yvOhAVSUwOMjQtTvsPWoNCHfPGwaaQJhTw==",
+      "license": "MIT",
+      "dependencies": {
+        "encodeurl": "^2.0.0",
+        "escape-html": "^1.0.3",
+        "parseurl": "^1.3.3",
+        "send": "^1.2.0"
+      },
+      "engines": {
+        "node": ">= 18"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/setprototypeof": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz",
+      "integrity": "sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==",
+      "license": "ISC"
+    },
+    "node_modules/side-channel": {
+      "version": "1.1.0",
+      "resolved": "https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz",
+      "integrity": "sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/wbbhnpw==",
+      "license": "MIT",
+      "dependencies": {
+        "es-errors": "^1.3.0",
+        "object-inspect": "^1.13.3",
+        "side-channel-list": "^1.0.0",
+        "side-channel-map": "^1.0.1",
+        "side-channel-weakmap": "^1.0.2"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/side-channel-list": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.1.tgz",
+      "integrity": "sha512-mjn/0bi/oUURjc5Xl7IaWi/OJJJumuoJFQJfDDyO46+hBWsfaVM65TBHq2eoZBhzl9EchxOijpkbRC8SVBQU0w==",
+      "license": "MIT",
+      "dependencies": {
+        "es-errors": "^1.3.0",
+        "object-inspect": "^1.13.4"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/side-channel-map": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz",
+      "integrity": "sha512-VCjCNfgMsby3tTdo02nbjtM/ewra6jPHmpThenkTYh8pG9ucZ/1P8So4u4FGBek/BjpOVsDCMoLA/iuBKIFXRA==",
+      "license": "MIT",
+      "dependencies": {
+        "call-bound": "^1.0.2",
+        "es-errors": "^1.3.0",
+        "get-intrinsic": "^1.2.5",
+        "object-inspect": "^1.13.3"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/side-channel-weakmap": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz",
+      "integrity": "sha512-WPS/HvHQTYnHisLo9McqBHOJk2FkHO/tlpvldyrnem4aeQp4hai3gythswg6p01oSoTl58rcpiFAjF2br2Ak2A==",
+      "license": "MIT",
+      "dependencies": {
+        "call-bound": "^1.0.2",
+        "es-errors": "^1.3.0",
+        "get-intrinsic": "^1.2.5",
+        "object-inspect": "^1.13.3",
+        "side-channel-map": "^1.0.1"
+      },
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/source-map-js": {
+      "version": "1.2.1",
+      "resolved": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz",
+      "integrity": "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==",
+      "dev": true,
+      "license": "BSD-3-Clause",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/statuses": {
+      "version": "2.0.2",
+      "resolved": "https://registry.npmjs.org/statuses/-/statuses-2.0.2.tgz",
+      "integrity": "sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.8"
+      }
+    },
+    "node_modules/sucrase": {
+      "version": "3.35.1",
+      "resolved": "https://registry.npmjs.org/sucrase/-/sucrase-3.35.1.tgz",
+      "integrity": "sha512-DhuTmvZWux4H1UOnWMB3sk0sbaCVOoQZjv8u1rDoTV0HTdGem9hkAZtl4JZy8P2z4Bg0nT+YMeOFyVr4zcG5Tw==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "@jridgewell/gen-mapping": "^0.3.2",
+        "commander": "^4.0.0",
+        "lines-and-columns": "^1.1.6",
+        "mz": "^2.7.0",
+        "pirates": "^4.0.1",
+        "tinyglobby": "^0.2.11",
+        "ts-interface-checker": "^0.1.9"
+      },
+      "bin": {
+        "sucrase": "bin/sucrase",
+        "sucrase-node": "bin/sucrase-node"
+      },
+      "engines": {
+        "node": ">=16 || 14 >=14.17"
+      }
+    },
+    "node_modules/supports-preserve-symlinks-flag": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz",
+      "integrity": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/ljharb"
+      }
+    },
+    "node_modules/tailwindcss": {
+      "version": "3.4.19",
+      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz",
+      "integrity": "sha512-3ofp+LL8E+pK/JuPLPggVAIaEuhvIz4qNcf3nA1Xn2o/7fb7s/TYpHhwGDv1ZU3PkBluUVaF8PyCHcm48cKLWQ==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "@alloc/quick-lru": "^5.2.0",
+        "arg": "^5.0.2",
+        "chokidar": "^3.6.0",
+        "didyoumean": "^1.2.2",
+        "dlv": "^1.1.3",
+        "fast-glob": "^3.3.2",
+        "glob-parent": "^6.0.2",
+        "is-glob": "^4.0.3",
+        "jiti": "^1.21.7",
+        "lilconfig": "^3.1.3",
+        "micromatch": "^4.0.8",
+        "normalize-path": "^3.0.0",
+        "object-hash": "^3.0.0",
+        "picocolors": "^1.1.1",
+        "postcss": "^8.4.47",
+        "postcss-import": "^15.1.0",
+        "postcss-js": "^4.0.1",
+        "postcss-load-config": "^4.0.2 || ^5.0 || ^6.0",
+        "postcss-nested": "^6.2.0",
+        "postcss-selector-parser": "^6.1.2",
+        "resolve": "^1.22.8",
+        "sucrase": "^3.35.0"
+      },
+      "bin": {
+        "tailwind": "lib/cli.js",
+        "tailwindcss": "lib/cli.js"
+      },
+      "engines": {
+        "node": ">=14.0.0"
+      }
+    },
+    "node_modules/thenify": {
+      "version": "3.3.1",
+      "resolved": "https://registry.npmjs.org/thenify/-/thenify-3.3.1.tgz",
+      "integrity": "sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "any-promise": "^1.0.0"
+      }
+    },
+    "node_modules/thenify-all": {
+      "version": "1.6.0",
+      "resolved": "https://registry.npmjs.org/thenify-all/-/thenify-all-1.6.0.tgz",
+      "integrity": "sha512-RNxQH/qI8/t3thXJDwcstUO4zeqo64+Uy/+sNVRBx4Xn2OX+OZ9oP+iJnNFqplFra2ZUVeKCSa2oVWi3T4uVmA==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "thenify": ">= 3.1.0 < 4"
+      },
+      "engines": {
+        "node": ">=0.8"
+      }
+    },
+    "node_modules/tinyglobby": {
+      "version": "0.2.16",
+      "resolved": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.16.tgz",
+      "integrity": "sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "fdir": "^6.5.0",
+        "picomatch": "^4.0.4"
+      },
+      "engines": {
+        "node": ">=12.0.0"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/SuperchupuDev"
+      }
+    },
+    "node_modules/to-regex-range": {
+      "version": "5.0.1",
+      "resolved": "https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz",
+      "integrity": "sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "is-number": "^7.0.0"
+      },
+      "engines": {
+        "node": ">=8.0"
+      }
+    },
+    "node_modules/toidentifier": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz",
+      "integrity": "sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=0.6"
+      }
+    },
+    "node_modules/ts-interface-checker": {
+      "version": "0.1.13",
+      "resolved": "https://registry.npmjs.org/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz",
+      "integrity": "sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==",
+      "dev": true,
+      "license": "Apache-2.0"
+    },
+    "node_modules/type-is": {
+      "version": "2.1.0",
+      "resolved": "https://registry.npmjs.org/type-is/-/type-is-2.1.0.tgz",
+      "integrity": "sha512-faYHw0anBbc/kWF3zFTEnxSFOAGUX9GFbOBthvDdLsIlEoWOFOtS0zgCiQYwIskL9iGXZL3kAXD8OoZ4GmMATA==",
+      "license": "MIT",
+      "dependencies": {
+        "content-type": "^2.0.0",
+        "media-typer": "^1.1.0",
+        "mime-types": "^3.0.0"
+      },
+      "engines": {
+        "node": ">= 18"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/type-is/node_modules/content-type": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/content-type/-/content-type-2.0.0.tgz",
+      "integrity": "sha512-j/O/d7GcZCyNl7/hwZAb606rzqkyvaDctLmckbxLzHvFBzTJHuGEdodATcP3yIRoDrLHkIATJuvzbFlp/ki2cQ==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=18"
+      },
+      "funding": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/express"
+      }
+    },
+    "node_modules/unpipe": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz",
+      "integrity": "sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.8"
+      }
+    },
+    "node_modules/update-browserslist-db": {
+      "version": "1.2.3",
+      "resolved": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz",
+      "integrity": "sha512-Js0m9cx+qOgDxo0eMiFGEueWztz+d4+M3rGlmKPT+T4IS/jP4ylw3Nwpu6cpTTP8R1MAC1kF4VbdLt3ARf209w==",
+      "dev": true,
+      "funding": [
+        {
+          "type": "opencollective",
+          "url": "https://opencollective.com/browserslist"
+        },
+        {
+          "type": "tidelift",
+          "url": "https://tidelift.com/funding/github/npm/browserslist"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/ai"
+        }
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "escalade": "^3.2.0",
+        "picocolors": "^1.1.1"
+      },
+      "bin": {
+        "update-browserslist-db": "cli.js"
+      },
+      "peerDependencies": {
+        "browserslist": ">= 4.21.0"
+      }
+    },
+    "node_modules/util-deprecate": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
+      "integrity": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==",
+      "dev": true,
+      "license": "MIT"
+    },
+    "node_modules/vary": {
+      "version": "1.1.2",
+      "resolved": "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz",
+      "integrity": "sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==",
+      "license": "MIT",
+      "engines": {
+        "node": ">= 0.8"
+      }
+    },
+    "node_modules/wrappy": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz",
+      "integrity": "sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==",
+      "license": "ISC"
+    }
+  }
+}
+
+
+--- FILE: postcss.config.js ---
+
+
+--- FILE: README.md ---
+# alx.codes Portfolio
+
+A polished Everforest/OpenCode-inspired full-stack developer portfolio for Pierre-Alexandre Merge Fignole.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open `index.html` with Live Server or your preferred local server.
+
+## Build CSS
+
+```bash
+npm run build
+```
+
+## Customize
+
+- Replace contact email placeholders in `index.html`.
+- Replace social links marked with `href="#"`.
+- Replace project screenshots in `assets/images/projects/`:
+  - `finance-terminal.png`
+  - `openpad.png`
+  - `client-redesign.png`
+- Replace `assets/images/profile.png` with your profile image.
+- Update project names, descriptions, tech stacks, and links in the `#work` section.
+
+## Design system
+
+Palette is based on Everforest/OpenCode:
+
+- Background: `#2D353B`
+- Surface: `#343F44`
+- Elevated: `#3D484D`
+- Text: `#D3C6AA`
+- Muted: `#9DA9A0`
+- Green: `#A7C080`
+- Aqua: `#83C092`
+- Yellow: `#DBBC7F`
+- Orange: `#E69875`
+- Red: `#E67E80` only for warning/error accents
+
+
+--- FILE: server.js ---
+import express from "express";
+import cors from "cors";
+import dotenv from "dotenv";
+import path from "path";
+import { fileURLToPath } from "url";
+import Groq from "groq-sdk";
+
+dotenv.config();
+
+const app = express();
+const PORT = process.env.PORT || 5000;
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const groq = new Groq({
+  apiKey: process.env.GROQ_API_KEY,
+});
+
+app.use(cors());
+app.use(express.json());
+app.use(express.static(__dirname));
+
+/* =========================
+   ALLOWED TOPICS
+========================= */
+
+const allowedTopics = [
+  "alex",
+  "alx",
+  "alx.codes",
+  "website",
+  "websites",
+  "developer",
+  "development",
+  "frontend",
+  "backend",
+  "portfolio",
+  "dashboard",
+  "debug",
+  "debugging",
+  "responsive",
+  "redesign",
+  "tailwind",
+  "javascript",
+  "html",
+  "css",
+  "python",
+  "react",
+  "github",
+  "freelance",
+  "internship",
+  "intern",
+  "part-time",
+  "montreal",
+  "dawson",
+  "coding",
+  "projects",
+  "project",
+  "services",
+  "availability",
+  "contact",
+  "pricing",
+  "maintenance",
+  "workflow",
+  "ui",
+  "ux",
+  "hire",
+  "work",
+  "experience",
+  "stack",
+  "book",
+  "call",
+  "schedule",
+];
+
+const identityQuestions = [
+  "who are you",
+  "who is this",
+  "what are you",
+  "are you ai",
+  "are you an ai",
+  "what is your name",
+  "your name",
+];
+
+function isIdentityQuestion(message = "") {
+  const lower = message.toLowerCase();
+
+  return identityQuestions.some((q) =>
+    lower.includes(q)
+  );
+}
+
+function isAllowedQuestion(message = "") {
+
+  const lower = message.toLowerCase();
+
+  if (isIdentityQuestion(lower)) {
+    return true;
+  }
+
+  return allowedTopics.some((topic) =>
+    lower.includes(topic)
+  );
+}
+
+/* =========================
+   REFUSAL
+========================= */
+
+const refusal =
+  "I can only answer questions related to alx.codes, development work, projects, or freelance services.";
+
+/* =========================
+   CHAT ENDPOINT
+========================= */
+
+app.post("/api/chat", async (req, res) => {
+
+  try {
+
+    const {
+      message,
+      name
+    } = req.body;
+
+    if (
+      !message ||
+      typeof message !== "string"
+    ) {
+
+      return res.json({
+        reply: refusal
+      });
+
+    }
+
+    if (!isAllowedQuestion(message)) {
+
+      return res.json({
+        reply: refusal
+      });
+
+    }
+
+    const completion =
+      await groq.chat.completions.create({
+
+        model: "llama-3.1-8b-instant",
+
+        temperature: 0.45,
+
+        max_tokens: 180,
+
+        messages: [
+
+          {
+            role: "system",
+
+            content: `
+
+You are Damien, the assistant integrated into the alx.codes website.
+
+You help visitors understand:
+- Alex
+- alx.codes
+- freelance services
+- projects
+- development work
+- internships
+- availability
+- workflow
+- tech stack
+
+========================================
+IDENTITY RULES
+========================================
+
+Do NOT introduce yourself automatically.
+
+Never start responses with:
+- "Hi, I'm..."
+- "Hello, I'm..."
+- "I am an AI..."
+- "As an AI..."
+- self-introduction paragraphs
+
+Only explain who you are if the visitor directly asks:
+- "Who are you?"
+- "Who is this?"
+- "What are you?"
+- "Are you AI?"
+- or similar identity questions
+
+When responding to identity questions:
+- be natural
+- be concise
+- sound human
+- avoid robotic wording
+
+GOOD:
+- "I'm Damien, the assistant for alx.codes."
+- "I'm the assistant integrated into the site."
+
+BAD:
+- "I'm designed to answer questions..."
+- "As an AI language model..."
+- robotic disclaimers
+
+========================================
+SCOPE RULES
+========================================
+
+ONLY answer questions related to:
+- alx.codes
+- Alex
+- projects
+- coding
+- freelance services
+- internships
+- web development
+
+If unrelated:
+respond ONLY with:
+
+"${refusal}"
+
+Do not:
+- explain the refusal
+- apologize
+- continue the conversation
+
+========================================
+FACTS
+========================================
+
+- Alex is based in Montreal.
+- Alex studies at Dawson College.
+- Alex has been coding for a little over 3 years.
+- Alex is entering his second year of college.
+- Alex is open to internships and freelance opportunities.
+- Alex works mainly on frontend-focused development.
+
+========================================
+SERVICES
+========================================
+
+- website development
+- redesigns
+- debugging
+- responsive fixes
+- dashboard interfaces
+- maintenance
+- forms/contact integrations
+
+========================================
+DO NOT CLAIM
+========================================
+
+Do NOT claim experience in:
+- AI engineering
+- mobile app development
+- blockchain
+- DevOps
+- cloud infrastructure
+- cybersecurity consulting
+- enterprise backend systems
+- SEO agencies
+- Linux consulting
+- server administration
+
+========================================
+TECH STACK
+========================================
+
+- HTML
+- CSS
+- JavaScript
+- Tailwind CSS
+- Python
+- Linux
+- GitHub
+
+Currently learning:
+- React
+- backend security
+- cybersecurity fundamentals
+
+========================================
+PRICING
+========================================
+
+Never provide:
+- price estimates
+- price ranges
+
+Instead:
+- encourage users to contact Alex
+- or schedule a call
+
+========================================
+STYLE
+========================================
+
+- concise
+- conversational
+- direct
+- calm
+- modern
+- no corporate wording
+- no long paragraphs
+- no fake claims
+- no filler
+
+Keep answers short unless more detail is requested.
+
+            `,
+          },
+
+          {
+            role: "user",
+
+            content:
+              `Visitor name: ${name || "visitor"}\nQuestion: ${message}`,
+          },
+
+        ],
+
+      });
+
+    return res.json({
+
+      reply:
+        completion.choices?.[0]?.message?.content?.trim() ||
+        "The assistant could not generate a response."
+
+    });
+
+  } catch (error) {
+
+    console.error("\nGROQ ERROR:\n");
+    console.error(error);
+
+    return res.status(500).json({
+
+      reply:
+        "The assistant is temporarily unavailable."
+
+    });
+
+  }
+
+});
+
+/* =========================
+   ROOT
+========================= */
+
+app.get("/", (req, res) => {
+
+  res.sendFile(
+    path.join(__dirname, "index.html")
+  );
+
+});
+
+/* =========================
+   START
+========================= */
+
+app.listen(PORT, () => {
+
+  console.log(
+    `\nServer running at http://localhost:${PORT}\n`
+  );
+
+});
+
+--- FILE: tailwind.config.js ---
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./index.html", "./about.html", "./src/**/*.js"],
+  theme: {
+    extend: {
+      colors: {
+        background: "#2D353B",
+        surface: "#343F44",
+        elevated: "#3D484D",
+        primary: "#A7C080",
+        aqua: "#83C092",
+        yellow: "#DBBC7F",
+        orange: "#E69875",
+        danger: "#E67E80",
+        "text-primary": "#D3C6AA",
+        "text-secondary": "#9DA9A0",
+        border: "rgba(211,198,170,0.14)",
+      },
+      fontFamily: {
+        sans: ["Inter", "Poppins", "system-ui", "sans-serif"],
+        mono: ["JetBrains Mono", "ui-monospace", "SFMono-Regular", "monospace"],
+      },
+      boxShadow: {
+        soft: "0 24px 80px rgba(13,18,21,.28)",
+        glow: "0 0 48px rgba(167,192,128,.14)",
+      },
+    },
+  },
+  plugins: [],
+};
+
+

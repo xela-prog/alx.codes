@@ -1,0 +1,962 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="alx.codes — premium full-stack developer portfolio for Pierre-Alexandre Merge Fignole." />
+  <title>alx.codes | Full-Stack Developer</title>
+  <link rel="stylesheet" href="./dist/output.css" />
+</head>
+
+<body class="bg-background text-text-primary">
+  <div id="cursor-glow" class="cursor-glow hidden md:block" aria-hidden="true"></div>
+
+  <header id="navbar" class="fixed inset-x-0 top-0 z-50 border-b border-transparent transition-all duration-300">
+    <nav class="container-x flex h-20 items-center justify-between" aria-label="Primary navigation">
+      <a href="#home" class="group font-mono text-lg font-black tracking-tight text-text-primary"
+        aria-label="alx.codes home">
+        <span class="text-primary">~/</span>alx.codes<span class="text-yellow">▌</span>
+      </a>
+      <div class="hidden items-center gap-8 md:flex">
+        <a class="nav-link font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition-all duration-300 hover:text-primary"
+          href="#work">
+          Work
+        </a>
+
+        <a class="nav-link font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition-all duration-300 hover:text-primary"
+          href="#services">
+          Services
+        </a>
+
+        <a class="nav-link font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition-all duration-300 hover:text-primary"
+          href="#stack">
+          Stack
+        </a>
+
+        <a class="nav-link font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition-all duration-300 hover:text-primary"
+          href="about.html">
+          About
+        </a>
+
+        <a class="nav-link font-mono text-sm font-semibold uppercase tracking-[.14em] text-text-primary transition-all duration-300 hover:text-primary"
+          href="index.html#contact">
+          Contact
+        </a>
+      </div>
+      <div class="hidden items-center gap-4 sm:flex">
+        <span
+          class="inline-flex items-center gap-2 rounded-full bg-surface/70 px-4 py-2 font-mono text-xs text-text-secondary"><span
+            class="h-2 w-2 rounded-full bg-primary shadow-[0_0_20px_rgba(167,192,128,.75)]"></span>AVAILABLE</span>
+        <a href="book.html" class="btn-primary py-2.5">Book a call</a>
+      </div>
+      <button id="menu-btn"
+        class="rounded-xl border border-border bg-surface/70 px-4 py-3 font-mono text-sm text-primary md:hidden"
+        aria-expanded="false" aria-controls="mobile-menu">menu</button>
+    </nav>
+    <div id="mobile-menu" class="hidden border-t border-border bg-background/95 px-5 py-6 backdrop-blur-xl md:hidden">
+      <div class="grid gap-4 font-mono text-sm uppercase tracking-[.18em]">
+        <a class="mobile-link text-text-secondary" href="index.html#work">Work</a>
+        <a class="mobile-link text-text-secondary" href="index.html#services">Services</a>
+        <a class="mobile-link text-text-secondary" href="index.html#stack">Stack</a>
+        <a class="mobile-link text-text-secondary" href="about.html">About</a>
+        <a class="mobile-link text-primary" href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="relative min-h-screen overflow-hidden pt-32">
+      <div class="noise"></div>
+      <div class="container-x grid min-h-[calc(100vh-8rem)] items-center gap-12 pb-20 lg:grid-cols-[1.04fr_.96fr]">
+        <div class="reveal">
+          <p class="eyebrow mb-6">Full-stack developer</p>
+          <h1 class="max-w-4xl text-5xl font-black leading-[.88] tracking-[-.07em] sm:text-7xl lg:text-8xl">
+            Alexandre builds software.
+          </h1>
+          <p class="mt-8 max-w-2xl text-lg leading-8 text-text-secondary">
+            alx.codes is my digital workspace: a portfolio for clean websites, landing pages, bug fixes, redesigns, and
+            full-stack projects that feel sharp without feeling generic.
+          </p>
+          <div class="mt-9 flex flex-col gap-4 sm:flex-row">
+            <a class="btn-primary" href="projects.html">Explore the build log <span aria-hidden="true">→</span></a>
+            <a class="btn-secondary" href="index.html#contact">Start a freelance project</a>
+          </div>
+          <div class="mt-10 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4">
+            <div class="panel rounded-2xl p-4">
+              <p class="font-mono text-2xl font-black text-primary">3+</p>
+              <p class="mt-1 text-sm text-text-secondary">years of experience</p>
+            </div>
+            <div class="panel rounded-2xl p-4">
+              <p class="font-mono text-2xl font-black text-aqua">10+</p>
+              <p class="mt-1 text-sm text-text-secondary">completed projects</p>
+            </div>
+            <div class="panel rounded-2xl p-4">
+              <p class="font-mono text-2xl font-black text-yellow">10+</p>
+              <p class="mt-1 text-sm text-text-secondary">satisfied clients</p>
+            </div>
+            <div class="panel rounded-2xl p-4">
+              <p class="font-mono text-2xl font-black text-orange">100%</p>
+              <p class="mt-1 text-sm text-text-secondary">commitment to quality</p>
+            </div>
+          </div>
+        </div>
+
+        <aside class="terminal-window reveal floaty" aria-label="Developer terminal preview">
+          <div class="window-bar">
+            <div class="flex gap-2"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+            <p class="font-mono text-xs text-text-secondary">alx.codes / live-session</p>
+          </div>
+          <div class="space-y-5 p-5 sm:p-7">
+            <div class="rounded-2xl border border-border bg-background/40 p-5">
+              <span class="code-line"><span class="g">➜</span> whoami</span>
+              <span class="code-line mt-2">Alexandre your personal problem solver</span>
+            </div>
+            <div class="rounded-2xl border border-border bg-background/40 p-5">
+              <span class="code-line"><span class="g">➜</span> npm run build</span>
+              <span class="code-line mt-2"><span class="o">planning</span> establish what you need</span>
+              <span class="code-line"><span class="y">building</span> creative solutions</span>
+              <span class="code-line"><span class="a">delivering</span> professional results</span>
+            </div>
+            <p class="font-mono text-sm text-text-secondary type-caret">waiting for next project</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="work" class="reveal pt-24 pb-10 sm:pt-32 sm:pb-14">
+      <div class="container-x">
+        <div class="mb-14 flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
+          <div>
+            <p class="eyebrow mb-4">Featured work</p>
+            <h2 class="section-title max-w-3xl">Projects presented like products, not thumbnails.</h2>
+          </div>
+          <p class="max-w-xl text-text-secondary">The first three cards are designed for your strongest projects.
+            Replace the screenshot placeholders, links, and descriptions when your final project info is ready.</p>
+        </div>
+        <div class="grid gap-6">
+          <article class="project-card panel rounded-[2rem] p-5 sm:p-7">
+            <div class="mb-5 flex flex-wrap items-center justify-between gap-3">
+              <h3 class="text-3xl font-black tracking-[-.04em]">Tissus Liquidation</h3><span
+                class="chip">Featured_01</span>
+            </div>
+            <img src="./assets/images/tissu.png" alt="Screenshot of Tissus Liquidation website"
+              class="rounded-2xl border border-border">
+            <div class="grid gap-8 lg:grid-cols-[1fr_.7fr]">
+              <p class="text-lg leading-8 mt-4 text-text-secondary">Built for a local fabric business owned by an
+                elderly entrepreneur, this website boosted her online presence, brought in new clients, and generated
+                enquiries from model agencies looking for fabric sourcing.</p>
+              <div class="space-y-4">
+                <div class="flex mt-4 flex-wrap gap-2"><span class="chip">HTML</span><span class="chip">
+                    CSS</span><span class="chip">JavaScript</span></div>
+                <div class="flex gap-3"><a class="btn-primary py-2.5 flex-1"
+                    href="https://tissusliquidation.com/pages/homepage.html">Live</a><a
+                    class="btn-secondary py-2.5 flex-1"
+                    href="https://github.com/xela-prog/Tissus-Liquidation-Web">GitHub</a></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="reveal py-10 sm:py-14">
+      <div class="container-x">
+        <div class="grid gap-6">
+          <article class="project-card panel rounded-[2rem] p-5 sm:p-7">
+            <div class="mb-5 flex flex-wrap items-center justify-between gap-3">
+              <h3 class="text-3xl font-black tracking-[-.04em]">OpenPad</h3><span class="chip">Featured_02</span>
+            </div>
+            <img src="./assets/images/openpad.png" alt="Screenshot of OpenPad in Terminal"
+              class="rounded-2xl border border-border">
+            <div class="grid gap-8 lg:grid-cols-[1fr_.7fr]">
+              <p class="text-lg leading-8 mt-4 text-text-secondary">A terminal-based notes app that stores notes as
+                markdown files with markdown styling. Includes an optional calendar integration via API. Built primarily
+                for developers and computer science students to complement OpenCode, supporting testing, note-taking,
+                and studying. Still in development with the first launch already available.</p>
+              <div class="space-y-4">
+                <div class="flex mt-4 flex-wrap gap-2"><span class="chip">Terminal</span><span class="chip">
+                    Markdown</span><span class="chip">Python</span></div>
+                <div class="flex gap-3"><a class="btn-primary py-2.5 flex-1"
+                    href="https://pypi.org/project/openpad/1.0.3/">Live</a><a class="btn-secondary py-2.5 flex-1"
+                    href="https://github.com/xela-prog/openpad-full">GitHub</a></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="reveal py-10 sm:py-14">
+      <div class="container-x">
+        <div class="grid gap-6">
+          <article class="project-card panel rounded-[2rem] p-5 sm:p-7">
+            <div class="mb-5 flex flex-wrap items-center justify-between gap-3">
+              <h3 class="text-3xl font-black tracking-[-.04em]">MoneyDash</h3><span class="chip">Featured_03</span>
+            </div>
+            <img src="./assets/images/moneydash.png" alt="Screenshot of MoneyDash in terminal"
+              class="rounded-2xl border border-border">
+            <div class="grid gap-8 lg:grid-cols-[1fr_.7fr]">
+              <p class="text-lg leading-8 mt-4 text-text-secondary">A fun, terminal-based money dashboard that helps you
+                set a budget, track how far you've gone, and stay on top of your finances. The next version will connect
+                directly to your bank account, so you won't need to enter anything manually.</p>
+              <div class="space-y-4">
+                <div class="flex mt-4 flex-wrap gap-2"><span class="chip">HTML</span><span class="chip">
+                    CSS</span><span class="chip">JavaScript</span></div>
+                <div class="flex gap-3"><a class="btn-primary py-2.5 flex-1" href="#">Coming soon</a></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal py-10 sm:py-14">
+      <div class="container-x">
+        <article class="project-card panel rounded-[2rem] p-5 sm:p-7">
+          <div class="mb-5 flex flex-wrap items-center justify-between gap-3">
+            <h3 class="text-3xl font-black tracking-[-.04em]">More Projects</h3>
+          </div>
+
+          <div class="grid gap-6 lg:grid-cols-[1fr_.7fr] lg:items-center">
+            <p class="text-lg leading-8 text-text-secondary">
+              Want to see more builds, experiments, and ongoing work? Browse my GitHub to explore full repositories.
+            </p>
+
+            <div class="flex gap-3">
+              <a href="https://github.com/xela-prog" class="btn-primary py-2.5 flex-1 text-center">
+                Visit My GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="reveal py-24 sm:py-32">
+      <div class="container-x">
+        <div class="mb-14 max-w-3xl">
+          <p class="eyebrow mb-4">Services</p>
+          <h2 class="section-title">Flexible work, no fixed-price trap.</h2>
+          <p class="mt-6 text-lg leading-8 text-text-secondary">Pricing is handled through conversation so the scope can
+            match the business, timeline, and level of polish required.</p>
+        </div>
+        <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+          <div class="panel rounded-3xl p-6">
+            <p class="font-mono text-sm text-primary">01</p>
+            <h3 class="mt-6 text-2xl font-black">Websites</h3>
+            <p class="mt-4 text-text-secondary">Clean, responsive sites for trust, clarity, and credibility.</p>
+          </div>
+          <div class="panel rounded-3xl p-6">
+            <p class="font-mono text-sm text-aqua">02</p>
+            <h3 class="mt-6 text-2xl font-black">Landing pages</h3>
+            <p class="mt-4 text-text-secondary">Focused pages for offers, campaigns, launches, and portfolios.</p>
+          </div>
+          <div class="panel rounded-3xl p-6">
+            <p class="font-mono text-sm text-yellow">03</p>
+            <h3 class="mt-6 text-2xl font-black">Bug fixing</h3>
+            <p class="mt-4 text-text-secondary">Debugging layout issues, broken logic, responsiveness, and UI bugs.</p>
+          </div>
+          <div class="panel rounded-3xl p-6">
+            <p class="font-mono text-sm text-orange">04</p>
+            <h3 class="mt-6 text-2xl font-black">Redesigns</h3>
+            <p class="mt-4 text-text-secondary">Modern refreshes that make existing websites feel premium again.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="reveal relative overflow-hidden py-24 sm:py-32">
+      <div class="absolute inset-0 -z-10 opacity-40">
+        <div class="absolute left-1/3 top-0 h-72 w-72 rounded-full bg-primary/10 blur-3xl"></div>
+        <div class="absolute bottom-0 right-1/4 h-72 w-72 rounded-full bg-aqua/10 blur-3xl"></div>
+      </div>
+
+      <div class="container-x grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+        <div class="lg:sticky lg:top-32">
+          <p class="eyebrow mb-4">Tech Stack</p>
+
+          <h2 class="section-title leading-tight">
+            Type like you’re inside my dev environment.
+          </h2>
+
+          <p class="mt-6 max-w-xl text-lg leading-relaxed text-text-secondary">
+            A small terminal-style view of the tools I use to build, debug, and ship modern web projects.
+          </p>
+        </div>
+
+        <div class="panel overflow-hidden rounded-3xl border border-white/10 bg-secondary/70 shadow-2xl backdrop-blur">
+          <div class="flex items-center justify-between border-b border-white/10 px-5 py-3">
+            <div class="flex items-center gap-2">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+
+            <p class="font-mono text-xs uppercase tracking-[0.18em] text-text-secondary">
+              stack@alx.codes
+            </p>
+          </div>
+
+          <div class="min-h-[430px] p-6 font-mono text-sm">
+            <p class="text-text-secondary">Welcome to Pierre-Alexandre’s stack terminal.</p>
+
+            <div id="stack-output" class="mt-6 space-y-3">
+              <p>
+                <span class="text-primary">visitor@alx.codes</span>
+                <span class="text-text-secondary">:</span>
+                <span class="text-aqua">~</span>
+                <span class="text-text-secondary">$</span>
+              </p>
+            </div>
+
+            <form id="stack-terminal-form" class="mt-4 flex items-center gap-2">
+              <span class="font-mono text-primary">$</span>
+              <input id="stack-terminal-input"
+                class="w-full appearance-none bg-transparent font-mono text-sm text-text-primary outline-none placeholder:text-text-secondary/50"
+                type="text" autocomplete="off" placeholder="Input command..." />
+            </form>
+
+            <p class="mt-6 text-xs text-text-secondary">
+              Try: <span class="text-primary">c stack</span> or <span class="text-yellow">clear</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="reveal py-24 sm:py-32">
+      <div class="container-x grid gap-10 lg:grid-cols-[0.75fr_1.25fr] lg:items-center">
+
+        <div class="terminal-window max-w-[28rem] overflow-hidden">
+          <div class="window-bar">
+            <div class="flex gap-2">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+
+            <p class="font-mono text-xs text-text-secondary">profile.md</p>
+          </div>
+
+          <div class="p-5">
+
+            <img src="./assets/images/profile.png" alt="Profile of Pierre-Alexandre"
+              class="aspect-[4/5] w-full rounded-2xl object-cover opacity-95" />
+          </div>
+        </div>
+
+        <div>
+          <p class="eyebrow mb-4">About</p>
+
+          <h2 class="section-title">
+            Young developer, serious taste.
+          </h2>
+
+          <div class="mt-8 space-y-5 text-lg leading-8 text-text-secondary">
+            <p>
+              I’m Pierre-Alexandre Merge Fignole, a full-stack developer building under alx.codes.
+              I care about websites that feel intentional: fast, responsive, readable, and memorable.
+            </p>
+
+            <p>
+              I like developer tools, Linux workflows, terminal aesthetics, and interfaces that look calm
+              but still have personality. This portfolio is built to show that I can create for both
+              technical people and clients who just want something that works beautifully.
+            </p>
+
+            <p>
+              This section is intentionally casual so you can add your real story later without rewriting
+              the whole design.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="contact" class="reveal py-24 sm:py-32">
+      <div class="container-x">
+        <div class="panel relative overflow-hidden rounded-[2rem] p-7 sm:p-10 lg:p-14">
+          <div class="noise"></div>
+
+          <div class="relative grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-start lg:gap-16">
+
+            <div class="flex flex-col justify-between h-full">
+              <div>
+                <p class="eyebrow mb-4">/root/contact</p>
+                <h2 class="section-title max-w-2xl text-4xl sm:text-5xl lg:text-6xl mb-6">
+                  Initialize<br />Connection.
+                </h2>
+
+                <div class="space-y-6 mt-8 text-lg leading-8 text-text-secondary max-w-xl">
+                  <p>
+                    Whether you are looking for a full-stack build, a site redesign, or urgent website maintenance, my
+                    system is ready to process your request.
+                  </p>
+                  <p>
+                    Pricing is scope-dependent. Book a call or send a direct request below, and we'll outline the exact
+                    architecture you need.
+                  </p>
+                </div>
+              </div>
+
+              <div class="mt-12 rounded-2xl border border-border bg-background/50 p-6 backdrop-blur-sm">
+                <div class="flex items-center justify-between mb-4">
+                  <p class="font-mono text-xs uppercase tracking-[.18em] text-yellow">System Status</p>
+                  <span class="inline-flex items-center gap-2 font-mono text-xs text-text-secondary">
+                    <span class="h-2 w-2 rounded-full bg-aqua shadow-[0_0_15px_rgba(131,192,146,.6)]"></span>
+                    Available
+                  </span>
+                </div>
+                <p class="text-text-primary mb-6">Currently accepting freelance projects & maintenance contracts.</p>
+                <a href="book.html" class="btn-secondary w-full py-3.5 text-sm uppercase tracking-[0.1em]">
+                  Book Discovery Call
+                </a>
+              </div>
+            </div>
+
+            <form id="project-form"
+              class="flex flex-col gap-5 rounded-3xl border border-border bg-surface/60 p-6 sm:p-8 backdrop-blur-md"
+              action="https://formsubmit.co/fignole.dev@gmail.com" method="POST">
+
+              <!-- CONFIG -->
+
+              <input type="hidden" name="_subject" value="New project request from alx.codes" />
+
+              <input type="hidden" name="_captcha" value="false" />
+
+              <!-- NAME + EMAIL -->
+
+              <div class="grid gap-5 sm:grid-cols-2">
+
+                <div>
+
+                  <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                    for="name">
+                    User
+                  </label>
+
+                  <input id="name" name="name" required
+                    class="w-full rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all placeholder:text-text-secondary/40 focus:border-primary"
+                    placeholder="John Doe" />
+
+                </div>
+
+                <div>
+
+                  <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                    for="email">
+                    Email
+                  </label>
+
+                  <input id="email" name="email" type="email" required
+                    class="w-full rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all placeholder:text-text-secondary/40 focus:border-primary"
+                    placeholder="john@server.com" />
+
+                </div>
+
+              </div>
+
+              <!-- OBJECTIVE -->
+
+              <div>
+
+                <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                  for="objective">
+                  Objective
+                </label>
+
+                <div class="relative">
+
+                  <select id="objective" name="objective"
+                    class="w-full appearance-none rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all focus:border-primary">
+
+                    <option value="web-dev">
+                      Website Development
+                    </option>
+
+                    <option value="maintenance">
+                      Website Maintenance
+                    </option>
+
+                    <option value="bug-fix">
+                      Bug Fixing / Optimization
+                    </option>
+
+                    <option value="redesign">
+                      UI/UX Redesign
+                    </option>
+
+                    <option value="dashboard">
+                      Dashboard / Admin Interface
+                    </option>
+
+                    <option value="other">
+                      Other Inquiry
+                    </option>
+
+                  </select>
+
+                  <div
+                    class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-5 text-text-secondary">
+
+                    <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!-- BUDGET + TIMELINE -->
+
+              <div class="grid gap-5 sm:grid-cols-2">
+
+                <!-- BUDGET -->
+
+                <div>
+
+                  <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                    for="budget">
+                    Budget
+                  </label>
+
+                  <div class="relative">
+
+                    <select id="budget" name="budget"
+                      class="w-full appearance-none rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all focus:border-primary">
+
+                      <option value="800-1500">
+                        $800 – $1000
+                      </option>
+
+                      <option value="1500-3000">
+                        $1000 – $2000
+                      </option>
+
+                      <option value="3000-5000">
+                        $2000 – $4000
+                      </option>
+
+                      <option value="5000+">
+                        $4000+
+                      </option>
+
+                    </select>
+
+                    <div
+                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-5 text-text-secondary">
+
+                      <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                      </svg>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <!-- TIMELINE -->
+
+                <div>
+
+                  <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                    for="timeline">
+                    Timeline
+                  </label>
+
+                  <div class="relative">
+
+                    <select id="timeline" name="timeline"
+                      class="w-full appearance-none rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all focus:border-primary">
+
+                      <option value="asap">
+                        ASAP
+                      </option>
+
+                      <option value="1-2-weeks">
+                        1–2 Weeks
+                      </option>
+
+                      <option value="1-month">
+                        1 Month
+                      </option>
+
+                      <option value="flexible">
+                        Flexible
+                      </option>
+
+                    </select>
+
+                    <div
+                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-5 text-text-secondary">
+
+                      <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                      </svg>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!-- EXISTING WEBSITE -->
+
+              <div>
+
+                <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                  for="website">
+                  Existing Website
+                </label>
+
+                <input id="website" name="website" type="url"
+                  class="w-full rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all placeholder:text-text-secondary/40 focus:border-primary"
+                  placeholder="https://example.com" />
+
+              </div>
+
+              <!-- REFERENCES -->
+
+              <div>
+
+                <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                  for="references">
+                  Inspiration / References
+                </label>
+
+                <textarea id="references" name="references" rows="3"
+                  class="w-full resize-y rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all placeholder:text-text-secondary/40 focus:border-primary"
+                  placeholder="Websites, styles, references, or interfaces you like..."></textarea>
+
+              </div>
+
+              <!-- PROJECT DETAILS -->
+
+              <div>
+
+                <label class="ml-1 mb-2 block font-mono text-xs uppercase tracking-[.18em] text-text-secondary"
+                  for="message">
+                  Requirement Details
+                </label>
+
+                <textarea id="message" name="message" required rows="6"
+                  class="w-full resize-y rounded-xl border border-border bg-background px-5 py-4 text-text-primary outline-none transition-all placeholder:text-text-secondary/40 focus:border-primary"
+                  placeholder="Describe what you need built, your goals, features, timelines, or current problems..."></textarea>
+
+              </div>
+
+              <!-- SUCCESS MESSAGE -->
+
+              <div id="form-success" class="hidden rounded-2xl border border-primary/20 bg-primary/10 px-5 py-4">
+
+                <p class="font-mono text-xs uppercase tracking-[.18em] text-primary">
+                  Request Executed Successfully
+                </p>
+
+                <p class="mt-2 text-sm text-text-secondary">
+                  Your request has been transmitted successfully.
+                  Alex will review the details shortly.
+                </p>
+
+              </div>
+
+              <!-- BUTTON -->
+
+              <button id="submit-btn" class="btn-primary mt-2 w-full py-4 font-mono text-sm uppercase tracking-[.18em]"
+                type="submit">
+                [ Execute_Request ]
+              </button>
+
+            </form>
+
+            <script>
+
+              const form =
+                document.getElementById("project-form");
+
+              const success =
+                document.getElementById("form-success");
+
+              const button =
+                document.getElementById("submit-btn");
+
+              form.addEventListener(
+                "submit",
+                async (e) => {
+
+                  e.preventDefault();
+
+                  button.disabled = true;
+
+                  button.innerText =
+                    "[ Transmitting... ]";
+
+                  const data =
+                    new FormData(form);
+
+                  try {
+
+                    await fetch(
+                      form.action,
+                      {
+                        method: "POST",
+                        body: data,
+                        headers: {
+                          Accept: "application/json"
+                        }
+                      }
+                    );
+
+                    success.classList.remove("hidden");
+
+                    button.innerText =
+                      "[ Request_Executed ]";
+
+                    form.reset();
+
+                    setTimeout(() => {
+
+                      success.classList.add("hidden");
+
+                      button.disabled = false;
+
+                      button.innerText =
+                        "[ Execute_Request ]";
+
+                    }, 7000);
+
+                  } catch (error) {
+
+                    button.disabled = false;
+
+                    button.innerText =
+                      "[ Transmission_Failed ]";
+
+                  }
+
+                }
+              );
+
+            </script>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-border py-10">
+    <div class="container-x flex flex-col justify-between gap-4 font-mono text-sm text-text-secondary sm:flex-row">
+      <p><span class="text-primary">~/</span>alx.codes — available for freelance and work.</p>
+      <p>Built with Everforest energy.</p>
+    </div>
+  </footer>
+
+  <script src="./src/main.js"></script>
+
+  <div id="chat-widget" class="chat-widget">
+    <div id="chat-panel" class="chat-panel hidden">
+      <div class="chat-header">
+        <div>
+          <p class="chat-kicker">Chat with</p>
+          <h3>alx.codes</h3>
+        </div>
+
+        <button id="chat-close" type="button">×</button>
+      </div>
+
+      <div id="chat-messages" class="chat-messages">
+        <div class="chat-bubble bot">
+          Hey, welcome to alx.codes. What’s your name?
+        </div>
+      </div>
+
+      <div id="chat-options" class="chat-options hidden"></div>
+
+      <form id="chat-form" class="chat-form">
+        <input id="chat-input" type="text" autocomplete="off" placeholder="Enter your name..." />
+
+        <button type="submit" aria-label="Send message">
+          ➤
+        </button>
+      </form>
+    </div>
+
+    <button id="chat-toggle" class="chat-toggle" type="button" aria-label="Open chat">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor" stroke-width="2">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+      </svg>
+    </button>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      /* STACK TERMINAL */
+      const stackForm = document.querySelector("#stack-terminal-form");
+      const stackInput = document.querySelector("#stack-terminal-input");
+      const stackOutput = document.querySelector("#stack-output");
+
+      if (stackForm && stackInput && stackOutput) {
+        const terminalCommands = {
+          "c stack": `
+        <div class="mt-4 space-y-4">
+          <p class="text-primary">$ c stack</p>
+
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="rounded-2xl border border-white/10 bg-background/40 p-4">
+              <p class="text-primary">frontend</p>
+              <p class="mt-2 text-text-primary">HTML · CSS · JavaScript · Tailwind CSS</p>
+            </div>
+
+            <div class="rounded-2xl border border-white/10 bg-background/40 p-4">
+              <p class="text-aqua">programming</p>
+              <p class="mt-2 text-text-primary">Python · Java</p>
+            </div>
+
+            <div class="rounded-2xl border border-white/10 bg-background/40 p-4">
+              <p class="text-yellow">workflow</p>
+              <p class="mt-2 text-text-primary">Linux · Fedora · Git · GitHub</p>
+            </div>
+
+            <div class="rounded-2xl border border-white/10 bg-background/40 p-4">
+              <p class="text-orange">mindset</p>
+              <p class="mt-2 text-text-primary">Responsive UI · Debugging · Clean structure</p>
+            </div>
+          </div>
+        </div>
+      `,
+
+          help: `
+        <div class="mt-4 space-y-2">
+          <p class="text-primary">$ help</p>
+          <p><span class="text-primary">c stack</span> → show tech stack</p>
+          <p><span class="text-yellow">clear</span> → clear terminal</p>
+        </div>
+      `,
+        };
+
+        stackForm.addEventListener("submit", (event) => {
+          event.preventDefault();
+
+          const command = stackInput.value.trim().toLowerCase();
+          if (!command) return;
+
+          if (command === "clear") {
+            stackOutput.innerHTML = `
+          <p>
+            <span class="text-primary">visitor@alx.codes</span>
+            <span class="text-text-secondary">:</span>
+            <span class="text-aqua">~</span>
+            <span class="text-text-secondary">$</span>
+          </p>
+        `;
+          } else {
+            stackOutput.innerHTML +=
+              terminalCommands[command] ||
+              `<div class="mt-4"><p class="text-red">Command not found. Try c stack or help.</p></div>`;
+          }
+
+          stackInput.value = "";
+        });
+      }
+
+      /* AUTO-GROW CONTACT TEXTAREA */
+      const messageBox = document.querySelector("#message");
+
+      messageBox?.addEventListener("input", () => {
+        messageBox.style.height = "56px";
+        messageBox.style.height = `${messageBox.scrollHeight}px`;
+      });
+
+      /* GEMINI CHAT WIDGET */
+      const toggle = document.querySelector("#chat-toggle");
+      const panel = document.querySelector("#chat-panel");
+      const close = document.querySelector("#chat-close");
+      const form = document.querySelector("#chat-form");
+      const input = document.querySelector("#chat-input");
+      const messages = document.querySelector("#chat-messages");
+
+      let visitorName = "";
+      let hasName = false;
+
+      function addMessage(text, type = "bot") {
+        const bubble = document.createElement("div");
+        bubble.className = `chat-bubble ${type}`;
+        bubble.textContent = text;
+        messages.appendChild(bubble);
+        messages.scrollTop = messages.scrollHeight;
+      }
+
+      toggle?.addEventListener("click", () => {
+        panel.classList.toggle("hidden");
+      });
+
+      close?.addEventListener("click", () => {
+        panel.classList.add("hidden");
+      });
+
+      form?.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        const value = input.value.trim();
+        if (!value) return;
+
+        addMessage(value, "user");
+        input.value = "";
+
+        if (!hasName) {
+          visitorName = value;
+          hasName = true;
+          input.placeholder = "Ask something...";
+
+          setTimeout(() => {
+            addMessage(
+              `Nice to meet you, ${visitorName}. Ask me anything about alx.codes.`,
+              "bot"
+            );
+          }, 300);
+
+          return;
+        }
+
+        addMessage("Thinking...", "bot");
+        const thinkingBubble = messages.lastElementChild;
+
+        try {
+          const response = await fetch("/api/chat", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              name: visitorName,
+              message: value,
+            }),
+          });
+
+          const data = await response.json();
+
+          thinkingBubble.textContent =
+            data.reply || "I could not generate a response.";
+        } catch (error) {
+          console.error(error);
+          thinkingBubble.textContent =
+            "I could not connect to the AI assistant right now.";
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
