@@ -2,11 +2,12 @@
   "name": "theportfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "start": "node server.js",
     "server": "node server.js"
   },
   "keywords": [],
