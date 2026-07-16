@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+    --bg: #282828;
+    --bg2: #3c3836;
+    --text: #d4be98;
+    --accent: #7daea3;
+    --border: #7c6f64;
+}
+
+* {
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14.4px;
+    }
+}
+
+::placeholder {
+    color: var(--border);
+}
